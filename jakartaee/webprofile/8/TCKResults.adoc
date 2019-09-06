@@ -39,6 +39,11 @@ Apache Derby, Linux, Ubuntu 16.04
 
 Test results:
 
-----
-No test results yet...  Need to fill this in.
-----
+Stage Name: websocket
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 745 tests.
+[javatest.batch] Number of Tests Passed      = 745
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+
