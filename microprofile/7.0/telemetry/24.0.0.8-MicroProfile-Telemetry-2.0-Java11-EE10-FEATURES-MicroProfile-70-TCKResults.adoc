@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Telemetry 2.0
 
-== Open Liberty 24.0.0.8 - MicroProfile Telemetry 2.0 Certification Summary (Java 11)
+== Open Liberty 24.0.0.9-beta-cl240820240709-0302 - MicroProfile Telemetry 2.0 Certification Summary (Java 11)
 
 * Product Name, Version and download URL (if applicable):
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/24.0.0.8/openliberty-24.0.0.8.zip[Open Liberty 24.0.0.8]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta-cl240820240709-0302]
 
 * Specification Name, Version and download URL:
 +
@@ -23,7 +23,7 @@ SHA-256: `a495cd1ee7e8cba36d151ffc34ef727861594b3218dac4fd6c6b3fedefbcd276`
 
 * Public URL of TCK Results Summary:
 +
-xref:24.0.0.8-MicroProfile-Telemetry-2.0-Java11-EE10-FEATURES-MicroProfile-70-TCKResults.adoc[TCK results summary]
+xref:24.0.0.9-beta-cl240820240709-0302-MicroProfile-Telemetry-2.0-Java11-EE10-FEATURES-MicroProfile-70-TCKResults.adoc[TCK results summary]
 
 
 * Java runtime used to run the implementation:
