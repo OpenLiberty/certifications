@@ -1,0 +1,341 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Fault Tolerance 4.1
+
+== Open Liberty 24.0.0.9-beta-cl240820240709-0302 - MicroProfile Fault Tolerance 4.1 Certification Summary (Java 21)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta-cl240820240709-0302]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-fault-tolerance/tree/4.1[MicroProfile Fault Tolerance 4.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/fault-tolerance/microprofile-fault-tolerance-tck/4.1/microprofile-fault-tolerance-tck-4.1.jar[MicroProfile Fault Tolerance 4.1 TCK]
++
+SHA-1: `bac28d61c30a05f787276f12ffc46e0dca0e00a3`
++
+SHA-256: `35d54013743c34016a386255b44bb59791ce536abe6a09e6b1ac58e5da24f5b4`
+
+* Public URL of TCK Results Summary:
++
+xref:24.0.0.9-beta-MicroProfile-Fault-Tolerance-4.1-Java21-EE10-FEATURES-MicroProfile-70-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 21: OpenJDK Runtime Environment (21+35-2513)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Mac OS X: kern.version: Darwin Kernel Version 23.4.0: Wed Feb 21 21:44:31 PST 2024; root:xnu-10063.101.15~2/RELEASE_X86_64
+
+Report generated at: 2024-07-18T20:09:15Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest 2024-07-18T21:09:11 BST
+Tests:17 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceDerivedClassNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROMRetryMissingOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROMNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROM Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceOverrideClassLevelUsesClassLevelAnnotation Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROCMRetryMissingOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROMOverridedMethodLevel Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROCMNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceOverrideClassLevelUsesClassLevelAnnotationWithMethodOverride Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceOverrideMethodLevelUsesMethodLevelAnnotation Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.baseRetryServiceUsesDefaults Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROMOverridedClassLevelMethodOverride Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceRetryRemovedAtMethodLevel Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROCMOverridedClassLevelMethodOverride Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROCM Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROMOverridedClassLevelNoMethodOverride Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest.serviceBaseROCMOverridedClassLevelNoMethodOverride Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.CircuitBreakerMetricTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.CircuitBreakerMetricTest.testCircuitBreakerMetric Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest 2024-07-18T21:09:11 BST
+Tests:27 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE0S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE1 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE2 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsRuntimeException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE0 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsRuntimeException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE1S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE2S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE0S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE2 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsError Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE2S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsError Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE2S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsRuntimeException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE1S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE0 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE2 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsError Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE0 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE1S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceCthrowsE1 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceAthrowsE0S Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest.serviceBthrowsE1 Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FallbackTelemetryTest 2024-07-18T21:09:11 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FallbackTelemetryTest.fallbackMetricMethodTest Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FallbackTelemetryTest.testMetricUnits Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FallbackTelemetryTest.fallbackMetricHandlerTest Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest 2024-07-18T21:09:11 BST
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricSuccessfulImmediately Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricNonRetryableImmediately Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricSuccessfulAfterRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricMaxRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricMaxRetriesHitButNoRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricMaxDuration Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricNonRetryableAfterRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest.testRetryMetricMaxDurationNoRetries Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest.bulkheadMetricTest Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest.bulkheadMetricRejectionTest Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest.testBulkheadPressureSync Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest.testBulkheadPressureAsync Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.config.FallbackApplyOnConfigTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackApplyOnConfigTest.testApplyOn Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest 2024-07-18T21:09:11 BST
+Tests:9 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricMaxDurationNoRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricMaxDuration Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricMaxRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricNonRetryableAfterRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricSuccessfulImmediately Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricMaxRetriesHitButNoRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testMetricUnits Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricSuccessfulAfterRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.RetryTelemetryTest.testRetryMetricNonRetryableImmediately Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FaultToleranceDisabledTelemetryTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.FaultToleranceDisabledTelemetryTest.testMetricsDisabled Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest 2024-07-18T21:09:11 BST
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncCSFallbackSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncFallbackMethodThrows Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncCSFallbackMethodThrows Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncCSFallbackFutureCompletesExceptionally Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncFallbackSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest.testAsyncFallbackFutureCompletesExceptionally Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.BulkheadTelemetryTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.BulkheadTelemetryTest.bulkheadMetricRejectionTest Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.BulkheadTelemetryTest.bulkheadMetricTest Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest 2024-07-18T21:09:11 BST
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testAsyncRequestContextWithFuture Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testAsyncRequestContextWithCompletionStage Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testAsyncIsFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testClassLevelAsyncIsFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testClassLevelAsyncIsNotFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest.testAsyncIsNotFinished Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest 2024-07-18T21:09:11 BST
+Tests:20 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethodOverrideOnClass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassOverrideOnClassWithOverriddenMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethodNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethodOverrideOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.noSharingBetweenMethodsOfOneClass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethodMissingOnOverriddenMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.noSharingBetweenClasses Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassMissingOnOverriddenMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethodNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethodOverrideOnClass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassNoRedefinition Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassOverrideOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassOverrideOnClass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethodMissingOnOverriddenMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethodOverrideOnMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnClassAndMethodOverrideOnClassWithOverriddenMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest.circuitBreakerOnMethodOverrideOnClassWithOverriddenMethod Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.MetricsDisabledTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.MetricsDisabledTest.testMetricsDisabled Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest 2024-07-18T21:09:11 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest.testBulkheadClassAsynchFutureDoneAfterGet Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest.testBulkheadClassAsynchFutureDoneWithoutGet Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest.testBulkheadMethodAsynchFutureDoneAfterGet Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest.testBulkheadMethodAsynchFutureDoneWithoutGet Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest 2024-07-18T21:09:11 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testAsyncCallbacksChained Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testClassLevelAsyncIsFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testClassLevelAsyncIsNotFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testAsyncIsFinished Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testAsyncCompletesExceptionallyWhenExceptionThrown Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testAsyncCompletesExceptionallyWhenCompletedExceptionally Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest.testAsyncIsNotFinished Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest.testRetriesReenterBulkhead Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerSkipOnConfigTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerSkipOnConfigTest.testConfigureSkipOn Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.AllAnnotationTelemetryTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.AllAnnotationTelemetryTest.testAllMetrics Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest.testCancelledDoesNotRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest.testCancel Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest 2024-07-18T21:09:11 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest.testRetryMetricUnsuccessful Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest.testRetryMetricSuccessfulAfterRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest.testRetryMetricSuccessfulImmediately Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest.testRetryInterceptors Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest.testAsync Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigGlobalTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigGlobalTest.testCircuitDefaultSuccessThreshold Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.ZeroRetryJitterTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.ZeroRetryJitterTest.test Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest.fallbackMetricHandlerTest Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest.fallbackMetricMethodTest Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.FallbackTest 2024-07-18T21:09:11 BST
+Tests:9 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testClassLevelFallbackSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbackMethodSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbackMethodWithArgsSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbackTimeout Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbacktNoTimeout Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testStandaloneHandlerFallback Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbackWithBeanSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testStandaloneMethodFallback Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.FallbackTest.testFallbackSuccess Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest 2024-07-18T21:09:11 BST
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureSkipOn Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureDelay Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureFailureRatio Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureSuccessThreshold Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureFailOn Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest.testConfigureRequestVolumeThreshold Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.TimeoutTelemetryTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.TimeoutTelemetryTest.testTimeoutMetric Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest.testTimeout Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest.testTimeoutClassLevel Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest 2024-07-18T21:09:11 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest.testFallbackHandler Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest.testApplyOn Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest.testFallbackMethod Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest.testSkipOn Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest.testAsyncTimeout Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.CircuitBreakerTelemetryTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.CircuitBreakerTelemetryTest.testMetricUnits Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.CircuitBreakerTelemetryTest.testCircuitBreakerMetric Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest.testRetryTimeout Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest 2024-07-18T21:09:11 BST
+Tests:16 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testClassLevelRetryOnTrue Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testClassLevelRetryWithAbortOnFalse Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testAsyncRetryExceptionally Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetrySuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryOnFalse Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testClassLevelRetryOnFalse Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryWithAbortOnTrue Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testClassLevelRetryWithAbortOnTrue Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testNoAsynRetryOnMethodException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryOnTrueThrowingAChildCustomException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryWithAbortOnFalse Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryOnTrue Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryParallelSuccess Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryCompletionStageWithException Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testNoAsynWilNotRetryExceptionally Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest.testRetryOnFalseAndAbortOnTrueThrowingAChildCustomException Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest.testBulkheadMethodSemaphore10 Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.ClassLevelTelemetryTest 2024-07-18T21:09:11 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.ClassLevelTelemetryTest.testRetryMetricSuccessfulAfterRetry Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.ClassLevelTelemetryTest.testRetryMetricSuccessfulImmediately Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.telemetryMetrics.ClassLevelTelemetryTest.testRetryMetricUnsuccessful Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest 2024-07-18T21:09:11 BST
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testCircuitOpenWithMoreRetriesAsync Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testNoRetriesIfAbortOnAsync Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testNoRetriesIfNotRetryOnAsync Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testCircuitOpenWithMoreRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testCircuitOpenWithFewRetriesAsync Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testClassLevelCircuitOpenWithFewRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testClassLevelCircuitOpenWithMoreRetries Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest.testCircuitOpenWithFewRetries Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest.testMetricUnits Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest.testAllMetrics Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.metrics.TimeoutMetricTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.metrics.TimeoutMetricTest.testTimeoutMetric Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigOnMethodTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigOnMethodTest.testCircuitDefaultSuccessThreshold Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest 2024-07-18T21:09:11 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest.noSharingBetweenClasses Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest.noSharingBetweenClassesWithCommonSuperclass Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest.noSharingBetweenMethodsOfOneClass Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.RetryTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.RetryTest.testRetryMaxDuration Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.RetryTest.testRetryMaxRetries Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest 2024-07-18T21:09:11 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testRollingWindowCircuitOpen2 Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testCircuitClosedThenOpen Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testCircuitHighSuccessThreshold Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testRollingWindowCircuitOpen Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testClassLevelCircuitOverride Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testClassLevelCircuitBase Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest.testCircuitReClose Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest 2024-07-18T21:09:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest.testTimeout Passed!
+   org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest.testTimeoutAsync Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest.testCircuitBreakerAroundBulkheadSync Passed!
+Test suite: org.eclipse.microprofile.fault.tolerance.tck.config.FallbackSkipOnConfigTest 2024-07-18T21:09:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.fault.tolerance.tck.config.FallbackSkipOnConfigTest.testSkipOn Passed!
+----
