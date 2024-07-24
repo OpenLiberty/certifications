@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Telemetry 2.0
 
-== Open Liberty 24.0.0.9-beta-cl240820240709-0302 - MicroProfile Telemetry 2.0 Certification Summary (Java 17)
+== Open Liberty 24.0.0.9-beta-cl240820240709-0302 - MicroProfile Telemetry 2.0 Certification Summary (Java 21)
 
 * Product Name, Version and download URL (if applicable):
 +

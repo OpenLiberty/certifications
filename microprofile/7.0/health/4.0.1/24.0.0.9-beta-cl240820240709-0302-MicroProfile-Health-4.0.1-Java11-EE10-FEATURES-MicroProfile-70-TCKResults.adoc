@@ -1,0 +1,110 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Health 4.0.1
+
+== Open Liberty 24.0.0.9-beta-cl240820240709-0302 - MicroProfile Health 4.0.1 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta-cl240820240709-0302]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-health/tree/4.0.1[MicroProfile Health 4.0.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/health/microprofile-health-tck/4.0.1/microprofile-health-tck-4.0.1.jar[MicroProfile Health 4.0.1 TCK]
++
+SHA-1: `0eb8df50272e27c93597ac98be94d60781556fc1`
++
+SHA-256: `3877b20e6a47223ef18609c427eeb4195d1ca78f19565ce6d8e71b5f80e3af8f`
+
+* Public URL of TCK Results Summary:
++
+xref:24.0.0.9-beta-MicroProfile-Health-4.0.1-Java11-EE10-FEATURES-MicroProfile-70-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 11: IBM Semeru Runtime Open Edition (11.0.20.1+1)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Mac OS X: kern.version: Darwin Kernel Version 23.4.0: Wed Feb 21 21:44:31 PST 2024; root:xnu-10063.101.15~2/RELEASE_X86_64
+
+Report generated at: 2024-07-19T07:07:14Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest 2024-07-19T08:07:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testFailureResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleReadinessFailedTest.testSuccessfulLivenessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleLivenessSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.JsonSchemaValidationTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.JsonSchemaValidationTest.testPayloadJsonVerifiesWithTheSpecificationSchema Passed!
+Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.HealthCheckResponseAttributesTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleReadinessFailedTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleReadinessFailedTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.ConfigTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.ConfigTest.testEmptyReadinessWithConfig Passed!
+Test suite: org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.NoProcedureSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.EnforceQualifierTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.EnforceQualifierTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest 2024-07-19T08:07:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testFailureLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleLivenessFailedTest.testSuccessfulReadinessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.DelayedCheckTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.DelayedCheckTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleStartupFailedTest 2024-07-19T08:07:11 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingHealthResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testFailingStartupResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.MultipleStartupFailedTest.testSuccessfulLivenessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.MultipleProceduresFailedTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.CDIProducedProceduresTest 2024-07-19T08:07:11 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testFailureReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessfulLivenessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.CDIProducedProceduresTest.testSuccessStartupResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleReadinessSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleLivenessFailedTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleLivenessFailedTest.testFailureResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.DelegateHealthSuccessfulTest.testSuccessfulDelegateInvocation Passed!
+Test suite: org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest 2024-07-19T08:07:11 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulReadinessResponsePayload Passed!
+   org.eclipse.microprofile.health.tck.OnlySuccessfulProcedureTest.testSuccessfulLivenessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.HealthCheckResponseValidationTest.testValidateConcreteHealthCheckResponse Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleStartupSuccessfulTest.testSuccessResponsePayload Passed!
+Test suite: org.eclipse.microprofile.health.tck.SingleStartupFailedTest 2024-07-19T08:07:11 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.health.tck.SingleStartupFailedTest.testFailedResponsePayload Passed!
+----
