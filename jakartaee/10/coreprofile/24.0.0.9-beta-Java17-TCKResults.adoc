@@ -3,11 +3,11 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 10.
 
-== Open Liberty 24.0.0.9-beta-cl240820240709-0302 Jakarta EE Core Profile 10 using Java 17 Certification Summary
+== Open Liberty 24.0.0.9-beta-cl240920240801-0303 Jakarta EE Core Profile 10 using Java 17 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-07-09_0302/openliberty-24.0.0.9-beta-cl240820240709-0302.zip[Open Liberty 24.0.0.9-beta-cl240820240709-0302]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2024-08-01_0303/openliberty-24.0.0.9-beta-cl240920240801-0303.zip[Open Liberty 24.0.0.9-beta-cl240920240801-0303]
 
 * Specification Name, Version and download URL:
 +
@@ -62,8 +62,8 @@ JCL      - df9b7169bff based on jdk-17.0.4.1+1)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
-Apache Derby, Linux, Ubuntu 18.04
-
+Apache Derby 10.14.2.0
+Linux (5.15.0-107-generic; amd64)
 
 Test results:
 
@@ -79,7 +79,7 @@ Stage Name: Jakarta Core Profile TCK
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:40 min
+[INFO] Total time: 01:36 min
 
 
 Stage Name: Jakarta Annotations TCK
@@ -95,7 +95,7 @@ Stage Name: Jakarta Annotations TCK
 
 
 Stage Name: Jakarta Contexts and Dependency Injection TCK
-[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 844.741 s - in TestSuite
+[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 818.459 s - in TestSuite
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -103,7 +103,7 @@ Stage Name: Jakarta Contexts and Dependency Injection TCK
 [INFO] 
 [INFO] /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/surefire-reports/sigtest/TEST-liberty-cdi-tck-runner-4.0.13.xml: 0 failures in /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/api-signature/cdi-api-jdk11.sig
 
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.885 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.791 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -111,7 +111,7 @@ Stage Name: Jakarta Contexts and Dependency Injection TCK
 
 
 Stage Name: Jakarta Dependency Injection TCK
-[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.515 s - in weld.SampleBootstrapTCK
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.277 s - in weld.SampleBootstrapTCK
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -129,7 +129,7 @@ Stage Name: Jakarta JSON Processing TCK
 [INFO] 
 [INFO] Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
-[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.856 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.63 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -146,6 +146,6 @@ Stage Name: Jakarta RESTful Web Services TCK
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 08:58 min
+[INFO] Total time: 08:28 min
 
 ----
