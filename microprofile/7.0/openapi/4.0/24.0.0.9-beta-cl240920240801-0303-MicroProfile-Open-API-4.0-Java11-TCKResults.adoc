@@ -15,7 +15,7 @@ https://github.com/eclipse/microprofile-open-api/tree/4.0[MicroProfile Open API 
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1719/org/eclipse/microprofile/open-api/microprofile-open-api-tck/4.0/microprofile-open-api-tck-4.0.jar[MicroProfile Open API 4.0 TCK]
+https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1719/org/eclipse/microprofile/openapi/microprofile-openapi-tck/4.0/microprofile-openapi-tck-4.0.jar[MicroProfile Open API 4.0 TCK]
 +
 SHA-1: `9095ef2fceaaa16f35ffd737dd6e711c507ed279`
 +
