@@ -48,3 +48,13 @@ In order to certify against MicroProfile 7.1, an implementation must pass the TC
 * xref:restclient/4.0/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Rest-Client-4.0-Java21-TCKResults.adoc[MicroProfile Rest Client 4.0 TCK Result (Java 21)]
 * xref:telemetry/2.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Telemetry-2.1-Java21-TCKResults.adoc[MicroProfile Telemetry 2.1 TCK Result (Java 21)]
 * xref:../../jakartaee/10/coreprofile/25.0.0.7-beta-cl250620250508-1902-Java21-TCKResults.adoc[Jakarta EE Core Profile 10.0 TCK Result (Java 21)]
+
+=== MicroProfile 7.1 Component Specification Certification Summary (Java 11)
+* xref:config/3.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Config-3.1-Java11-TCKResults.adoc[MicroProfile Config 3.1 TCK Result (Java 11)]
+* xref:faulttolerance/4.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Fault-Tolerance-4.1.1-Java11-TCKResults.adoc[MicroProfile Fault Tolerance 4.1 TCK Result (Java 11)]
+* xref:health/4.0.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Health-4.0.1-Java11-TCKResults.adoc[MicroProfile Health 4.0 TCK Result (Java 11)]
+* xref:jwt/2.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-JWT-Auth-2.1-Java11-TCKResults.adoc[MicroProfile JWT Authentication 2.1 TCK Result (Java 11)]
+* xref:openapi/4.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Open-API-4.1-Java11-TCKResults.adoc[MicroProfile OpenAPI 4.1 TCK Result (Java 11)]
+* xref:restclient/4.0/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Rest-Client-4.0-Java11-TCKResults.adoc[MicroProfile Rest Client 4.0 TCK Result (Java 11)]
+* xref:telemetry/2.1/25.0.0.7-beta-cl250620250508-1902-MicroProfile-Telemetry-2.1-Java11-TCKResults.adoc[MicroProfile Telemetry 2.1 TCK Result (Java 11)]
+* xref:../../jakartaee/10/coreprofile/25.0.0.7-beta-cl250620250508-1902-Java11-TCKResults.adoc[Jakarta EE Core Profile 10.0 TCK Result (Java 11)]

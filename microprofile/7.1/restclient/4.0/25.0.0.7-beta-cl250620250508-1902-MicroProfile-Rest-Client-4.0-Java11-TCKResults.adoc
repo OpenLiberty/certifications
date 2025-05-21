@@ -1,0 +1,401 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Rest Client 4.0
+
+== Open Liberty 25.0.0.7-beta-cl250620250508-1902 - MicroProfile Rest Client 4.0 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2025-05-08_1902/openliberty-25.0.0.7-beta-cl250620250508-1902.zip[Open Liberty 25.0.0.7-beta-cl250620250508-1902]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-rest-client/tree/4.0[MicroProfile Rest Client 4.0 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/rest/client/microprofile-rest-client-tck/4.0/microprofile-rest-client-tck-4.0.jar[MicroProfile Rest Client 4.0 TCK]
++
+SHA-1: `e91bd9924c585301da07779abe915f6f1966158b`
++
+SHA-256: `751dae3684e08bbfd8fc51d60ef39b0a27662a1776b5305545f6c4bf42888813`
+
+* Public URL of TCK Results Summary:
++
+xref:25.0.0.7-beta-cl250620250508-1902-MicroProfile-Rest-Client-4.0-Java11-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+IBM Semeru Runtime Open Edition 11.0.20.1 (build 11.0.20.1+1)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Mac OS X: kern.version: Darwin Kernel Version 24.4.0: Fri Apr 11 18:28:23 PDT 2025; root:xnu-11417.101.15~117/RELEASE_X86_64
+
+Report generated at: 2025-05-21T07:37:34Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSingletonScopeTest.testHasSingletonScoped Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.EntityPartTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.EntityPartTest.uploadFile Passed!
+   org.eclipse.microprofile.rest.client.tck.EntityPartTest.uploadMultipleFiles Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testInvokesGetOperationWithCDIBean Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeSimpleGetOperationTest.testHasDependentScopedByDefault Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIClientHeadersFactoryTest.testClientHeadersFactoryInvoked Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ClientReuseTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ClientReuseTest.shouldReuseClientAfterFailure Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testHasDependentScopedByDefault Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.CDIInvokeAsyncSimpleGetOperationTest.testInvokesGetOperationWithCDIBean Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyForMultipleInterfacesTest.testConfigKeyUsedForUri Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.commaSeparated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.arrayPairs Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.explicitMultiPair Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIQueryParamStyleTest.defaultStyleIsMultiPair Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest 2025-05-21T08:37:30 BST
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfigWithConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfigWithConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPutOperation_viaMPConfig Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInvokeWithRegisteredProvidersTest.testInvokesPostOperation_viaMPConfig Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testNullExecutorServiceThrowsIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testAsyncInvocationInterceptorProvider Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testInterfaceMethodWithCompletionStageObjectReturnIsInvokedAsynchronously Passed!
+   org.eclipse.microprofile.rest.client.tck.asynctests.AsyncMethodTest.testExecutorService Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldFailedMutualSslWithoutSslContext Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslContextTest.shouldSucceedMutualSslWithValidSslContext Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPutOperationWithAnnotatedProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithRegisteredProvidersTest.testInvokesPostOperationWithAnnotatedProviders Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest 2025-05-21T08:37:30 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithoutHostnameAndNoVerifier Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldFailWithRejectingHostnameVerifierCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifierCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldSucceedWithAcceptingHostnameVerifierCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslHostnameVerifierTest.shouldPassSslSessionAndHostnameToHostnameVerifier Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSingletonScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasSessionScopeTest.testHasSessionScopedFromConfigKey Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest 2025-05-21T08:37:30 BST
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test303Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test307Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Default Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test302Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.FollowRedirectsTest.test301Default Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvokedMethodTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvokedMethodTest.testRequestFilterReturnsMethodInvoked Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testMPConfigURIOverridesBaseUriInRegisterRestClientAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testURItakesPrecedenceOverURL Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIURIvsURLConfigTest.testBaseUriInRegisterRestClientAnnotation Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testConnectTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutBuilderIndependentOfMPConfigTest.testReadTimeout Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ProxyServerTest 2025-05-21T08:37:30 BST
+Tests:5 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testProxy Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber1 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testInvalidPortNumber2 Passed!
+   org.eclipse.microprofile.rest.client.tck.ProxyServerTest.testNullHostName Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.FilterPriorityTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.FilterPriorityTest.testPriorities Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testConfigKeyUsedForUri Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ConfigKeyTest.testFullyQualifiedClassnamePropTakesPrecedenceOverConfigKey Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ClientHeadersFactoryTest.testClientHeadersFactoryInvoked Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaAnnotation Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedViaRestClientBuilder Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testInstanceProviderSpecifiedViaRestClientBuilderDoesNotUseCDIManagedProvider Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIManagedProviderTest.testCDIProviderSpecifiedInMPConfig Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ProducesConsumesTest.testProducesConsumesAnnotationOnInterface Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest 2025-05-21T08:37:30 BST
+Tests:6 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_String Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testCommentOnlySse Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testNamedEventSse Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_InboundSseEvent Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testServerClosesConnection Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.BasicReactiveStreamsTest.testDataOnlySse_JsonObject Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.FeatureRegistrationTest.testFeatureRegistrationViaBuilder Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasConversationScopeTest.testHasConversationScopedFromConfigKey Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.RestClientListenerTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.RestClientListenerTest.testRestClientListenerInvoked Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest 2025-05-21T08:37:30 BST
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test307Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Default Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test301Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test302Follows Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIFollowRedirectsTest.test303Default Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest 2025-05-21T08:37:30 BST
+Tests:11 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtTypeLevel Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMissingPathParamAnnotation_templateDeclaredAtMethodLevel Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMethodWithInvalidSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleClientHeaderParamsSpecifySameHeaderOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenMultipleHeaderValuesSpecifiedIncludeComputeMethodOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithPathParamAnnotationButNoURITemplate Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMultipleHTTPMethodAnnotations Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenInterfaceHasMethodWithMismatchedPathParameter Passed!
+   org.eclipse.microprofile.rest.client.tck.InvalidInterfaceTest.testExceptionThrownWhenClientHeaderParamComputeValueSpecifiesMissingMethod Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.ClientClosedTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.ClientClosedTest.closeableClosed Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ClientClosedTest.autoCloseableClosed Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.ClientClosedTest.stringClosed Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPostOperationWithRegisteredProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithBuiltProvidersTest.testInvokesPutOperationWithRegisteredProviders Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorInvoked Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIInterceptorTest.testInterceptorNotInvokedWhenNoAnnotationApplied Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.CallMultipleMappersTest.testCallsTwoProvidersWithTwoRegisteredProvider Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testReadTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigWithConfigKeyTest.testConnectTimeout Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testConnectTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutTest.testReadTimeout Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InheritanceTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnBaseInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeMethodOnChildInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.InheritanceTest.canInvokeOverriddenMethodOnChildInterface Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithTwoRegisteredProviders Passed!
+   org.eclipse.microprofile.rest.client.tck.ExceptionMapperTest.testWithOneRegisteredProvider Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testLowerPriorityMapperTakesPrecedenceFromDefault Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testNoExceptionThrownWhenDisabledDuringBuild Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testPropagationOfResponseDetailsFromDefaultMapper Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperTest.testExceptionThrownWhenPropertySetToFalse Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest 2025-05-21T08:37:30 BST
+Tests:8 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstanceWithPriority Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstance Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClassWithPriorities Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderClass Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterAMultiTypedProviderInstanceWithPriorities Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.testPropertiesRegistered Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterInstance Passed!
+   org.eclipse.microprofile.rest.client.tck.AdditionalRegistrationTest.shouldRegisterProvidersWithPriority Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.commaSeparated Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.defaultStyleIsMultiPair Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.arrayPairs Passed!
+   org.eclipse.microprofile.rest.client.tck.QueryParamStyleTest.explicitMultiPair Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideInterfaceAndProviderAnnotationOnBuilder Passed!
+   org.eclipse.microprofile.rest.client.tck.MultiRegisteredTest.testOverrideProviderAnnotationOnBuilder Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScoped Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasAppScopeTest.testHasApplicationScopedWhenAnnotated Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.CustomHttpMethodTest.invokesUserDefinedHttpMethod Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.CloseTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseableClose Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterAutoCloseableClose Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsCloseable Passed!
+   org.eclipse.microprofile.rest.client.tck.CloseTest.expectIllegalStateExceptionAfterCloseOnInterfaceThatExtendsAutoCloseable Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvokeSimpleGetOperationTest.testGetExecutionWithBuiltClient Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.DefaultExceptionMapperConfigTest.testNoExceptionThrownWhenDisabledDuringBuild Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.BeanParamTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.BeanParamTest.sendsParamsSpecifiedInBeanParam Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest 2025-05-21T08:37:30 BST
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPostExecutes Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetExecutesForBothClients Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testPutExecutes Passed!
+   org.eclipse.microprofile.rest.client.tck.InvokeWithJsonPProviderTest.testGetSingleExecutesForBothClients Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ClientBuilderHeaderTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ClientBuilderHeaderTest.testHeaderBuilderMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientBuilderHeaderTest.testHeaderBuilderMethodNullValue Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientBuilderHeaderTest.testHeaderBuilderInterface Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.RestClientBuilderListenerTest.testRegistrarInvoked Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest 2025-05-21T08:37:30 BST
+Tests:14 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderNotSentWhenExceptionThrownAndRequiredIsFalse Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExceptionInRequiredComputeMethodThrowsClientErrorException Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderInterfaceExplicit Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesExplicitClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testMultivaluedHeaderSentWhenInvokingComputeMethodFromSeparateClass Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnMethod Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnMethodOverridesClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testExplicitClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testHeaderParamOverridesComputedClientHeaderParamOnInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.ClientHeaderParamTest.testComputedClientHeaderParamOnInterface Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_Accept Passed!
+   org.eclipse.microprofile.rest.client.tck.DefaultMIMETypeTest.testDefaultMIMETypeIsApplicationJson_ContentType Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedWhenAnnotated Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScopedFromConfigKey Passed!
+   org.eclipse.microprofile.rest.client.tck.cditests.HasRequestScopeTest.testHasRequestScoped Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testGetExecutesForBothClients Passed!
+   org.eclipse.microprofile.rest.client.tck.jsonb.InvokeWithJsonBProviderTest.testCanSeePrivatePropertiesViaContextResolver Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.SubResourceTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.SubResourceTest.exceptionMappedOnSubResourceInterface Passed!
+   org.eclipse.microprofile.rest.client.tck.SubResourceTest.canInvokeMethodOnSubResourceInterface Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest 2025-05-21T08:37:30 BST
+Tests:38 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec104_mustSignalOnErrorWhenFails Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec303_mustNotAllowUnboundedRecursion Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestNegativeNumberMustSignalIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustNotSignalOnErrorWhenPendingAboveLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec105_mustSignalOnCompleteWhenFiniteStreamTerminates Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfront Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_maxElementsFromPublisher Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec312_cancelMustMakeThePublisherToEventuallyStopSignaling Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_registeredSubscribersMustReceiveOnNextOrOnCompleteSignals Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec107_mustNotEmitFurtherSignalsOnceOnCompleteHasBeenSignalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mayRejectCallsToSubscribeIfPublisherIsUnableOrUnwillingToServeThemRejectionMustTriggerOnErrorAfterOnSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportACumulativePendingElementCountUpToLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec106_mustConsiderSubscriptionCancelledAfterOnErrorOrOnCompleteHasBeenCalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec101_subscriptionRequestMustResultInTheCorrectNumberOfProducedElements Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec302_mustAllowSynchronousRequestCallsFromOnNextAndOnSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec309_requestNegativeNumberMaySignalIllegalArgumentExceptionWithSpecificMessage Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingManyUpfrontAndCompleteAsExpected Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec304_requestShouldNotPerformHeavyComputations Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher1MustProduceAStreamOfExactly1Element Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec110_rejectASubscriptionRequestIfTheSameSubscriberSubscribesTwice Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec107_mustNotEmitFurtherSignalsOnceOnErrorHasBeenSignalled Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec309_requestZeroMustSignalIllegalArgumentException Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec305_cancelMustNotSynchronouslyPerformHeavyComputation Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_maySupportMultiSubscribe Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec109_subscribeShouldNotThrowNonFatalThrowable Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec307_afterSubscriptionIsCancelledAdditionalCancelationsMustBeNops Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_mustIssueOnSubscribeForNonNullSubscriber Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.stochastic_spec103_mustSignalOnMethodsSequentially Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.untested_spec108_possiblyCanceledSubscriptionShouldNotReceiveOnErrorOrOnCompleteSignals Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec313_cancelMustMakeThePublisherEventuallyDropAllReferencesToTheSubscriber Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_createPublisher3MustProduceAStreamOfExactly3Elements Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec102_maySignalLessThanRequestedAndTerminateSubscription Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec111_multicast_mustProduceTheSameElementsInTheSameSequenceToAllOfItsSubscribersWhenRequestingOneByOne Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.optional_spec105_emptyStreamMustTerminateBySignallingOnComplete Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_validate_boundedDepthOfOnNextAndRequestRecursion Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec306_afterSubscriptionIsCancelledRequestMustBeNops Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec317_mustSupportAPendingElementCountUpToLongMaxValue Passed!
+   org.eclipse.microprofile.rest.client.tck.sse.ReactiveStreamsPublisherTckTest.required_spec109_subscribeThrowNPEOnNullSubscriber Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest 2025-05-21T08:37:30 BST
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.cditests.CDIProxyServerTest.testProxy Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest 2025-05-21T08:37:30 BST
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testReadTimeout Passed!
+   org.eclipse.microprofile.rest.client.tck.timeout.TimeoutViaMPConfigTest.testConnectTimeout Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest 2025-05-21T08:37:30 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreFromResourceCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystoreCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystore Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystore Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithSelfSignedKeystoreCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldFailWithNonMatchingKeystore Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslTrustStoreTest.shouldSucceedWithRegisteredSelfSignedKeystoreCDI Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest 2025-05-21T08:37:30 BST
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testCanCallStaticLoader Passed!
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testLastBaseUriOrBaseUrlCallWins Passed!
+   org.eclipse.microprofile.rest.client.tck.ProvidesRestClientBuilderTest.testIllegalStateExceptionThrownWhenNoBaseUriOrUrlSpecified Passed!
+Test suite: org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest 2025-05-21T08:37:30 BST
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureFromClasspathCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignature Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithInvalidClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldFailWithNoClientSignatureCDI Passed!
+   org.eclipse.microprofile.rest.client.tck.ssl.SslMutualTest.shouldWorkWithClientSignature Passed!
+----
