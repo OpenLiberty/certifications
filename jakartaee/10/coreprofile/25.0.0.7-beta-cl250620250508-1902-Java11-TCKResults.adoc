@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 10.
 
-== Open Liberty 25.0.0.7-beta-cl250620250508-1902 Jakarta EE Core Profile 10 using Java 21 Certification Summary
+== Open Liberty 25.0.0.7-beta-cl250620250508-1902 Jakarta EE Core Profile 10 using Java 11 Certification Summary
 
 * Product Name, Version and download URL (if applicable):
 +
@@ -20,7 +20,7 @@ SHA-256: `2cc457efe152a6d3e4aed4852fccdc43aafc2575894a8e392ee6abfc95d9bb3c`
 
 * Public URL of TCK Results Summary:
 +
-link:25.0.0.7-beta-cl250620250508-1902-Java21-TCKResults.html[TCK results summary]
+link:25.0.0.7-beta-cl250620250508-1902-Java11-TCKResults.html[TCK results summary]
 
 * Any Additional Specification Certification Requirements:
 +
@@ -52,12 +52,12 @@ SHA-256: `93bf5bd22a217fd1950026feaeec6a234c7a67137657d64a13bb56b105b0fb2e`
 * Java runtime used to run the implementation:
 +
 ----
-java version "21.0.6" 2025-01-21 LTS
-IBM Semeru Runtime Certified Edition 21.0.6.0 (build 21.0.6+7-LTS)
-Eclipse OpenJ9 VM 21.0.6.0 (build openj9-0.49.0, JRE 21 Linux amd64-64-Bit Compressed References 20250121_373 (JIT enabled, AOT enabled)
+java version "11.0.26" 2025-01-21
+IBM Semeru Runtime Certified Edition 11.0.26.0 (build 11.0.26+4)
+Eclipse OpenJ9 VM 11.0.26.0 (build openj9-0.49.0, JRE 11 Linux amd64-64-Bit Compressed References 20250205_1119 (JIT enabled, AOT enabled)
 OpenJ9   - 3c3d179854
 OMR      - e49875871
-JCL      - c5f10f9bd79 based on jdk-21.0.6+7)
+JCL      - 169bc80bc2 based on jdk-11.0.26+4)
 ----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
@@ -90,11 +90,11 @@ Stage Name: Jakarta Annotations TCK
 [javatest.batch] ********************************************************************************
 [javatest.batch] PASSED........com/sun/ts/tests/signaturetest/caj/CAJSigTest.java#signatureTest
 [javatest.batch] 
-[javatest.batch] Total time = 15s
+[javatest.batch] Total time = 12s
 
 
 Stage Name: Jakarta Contexts and Dependency Injection TCK
-[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 951.497 s - in TestSuite
+[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 991.086 s - in TestSuite
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -102,7 +102,7 @@ Stage Name: Jakarta Contexts and Dependency Injection TCK
 [INFO] 
 [INFO] /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/surefire-reports/sigtest/TEST-liberty-cdi-tck-runner-4.0.13.xml: 0 failures in /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/api-signature/cdi-api-jdk11.sig
 
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.936 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.225 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -110,7 +110,7 @@ Stage Name: Jakarta Contexts and Dependency Injection TCK
 
 
 Stage Name: Jakarta Dependency Injection TCK
-[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.963 s - in weld.SampleBootstrapTCK
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.836 s - in weld.SampleBootstrapTCK
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -128,7 +128,7 @@ Stage Name: Jakarta JSON Processing TCK
 [INFO] 
 [INFO] Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
-[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.498 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -145,6 +145,6 @@ Stage Name: Jakarta RESTful Web Services TCK
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  07:09 min
+[INFO] Total time:  07:22 min
 
 ----
