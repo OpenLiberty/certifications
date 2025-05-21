@@ -28,7 +28,7 @@ xref:25.0.0.7-beta-cl250620250508-1902-MicroProfile-Rest-Client-4.0-Java11-TCKRe
 
 * Java runtime used to run the implementation:
 +
-IBM Semeru Runtime Open Edition 11.0.20.1 (build 11.0.20.1+1)
+Java 11: IBM Semeru Runtime Open Edition (11.0.20.1+1)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +

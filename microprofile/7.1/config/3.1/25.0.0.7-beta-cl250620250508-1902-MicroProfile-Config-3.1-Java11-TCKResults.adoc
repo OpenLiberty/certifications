@@ -28,7 +28,7 @@ xref:25.0.0.7-beta-cl250620250508-1902-MicroProfile-Config-3.1-Java11-TCKResults
 
 * Java runtime used to run the implementation:
 +
-openjdk version "11.0.20.1" 2023-08-24
+Java 11: IBM Semeru Runtime Open Edition (11.0.20.1+1)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +

@@ -3,7 +3,7 @@
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Open API 4.1
 
-== Open Liberty 25.0.0.7-cl250620250508-1902-beta - MicroProfile Open API 4.1 Certification Summary (Java 11)
+== Open Liberty 25.0.0.7-beta-cl250620250508-1902 - MicroProfile Open API 4.1 Certification Summary (Java 11)
 
 * Product Name, Version and download URL (if applicable):
 +
@@ -28,7 +28,7 @@ xref:25.0.0.7-beta-cl250620250508-1902-MicroProfile-Open-API-4.1-Java23-TCKResul
 
 * Java runtime used to run the implementation:
 +
-IBM Semeru Runtime Open Edition 11.0.20.1 (build 11.0.20.1+1)
+Java 11: IBM Semeru Runtime Open Edition (11.0.20.1+1)
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
 +
