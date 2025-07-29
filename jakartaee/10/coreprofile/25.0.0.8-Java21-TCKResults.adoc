@@ -1,0 +1,381 @@
+:page-layout: certification
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Core Profile 10.
+
+== Open Liberty 25.0.0.8 Jakarta EE Core Profile 10 using Java 21 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/25.0.0.8/openliberty-microProfile7-25.0.0.8.zip[Open Liberty 25.0.0.8]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/coreprofile/10[Jakarta EE Core Profile 10]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/jakartaee/coreprofile/10.0/jakarta-core-profile-tck-10.0.4.zip[Jakarta EE Core Profile TCK 10.0.4],
+SHA-256: `2cc457efe152a6d3e4aed4852fccdc43aafc2575894a8e392ee6abfc95d9bb3c`
+
+* Public URL of TCK Results Summary:
++
+link:25.0.0.8-Java21-TCKResults.html[TCK results summary]
+
+* Any Additional Specification Certification Requirements:
++
+Jakarta Annotations
+https://download.eclipse.org/jakartaee/annotations/2.1/jakarta-annotations-tck-2.1.1.zip[jakarta-annotations-tck-2.1.1.zip],
+SHA-256: `8c2131d51c75cde4be74382f662519f9fd439f4ce4dd60832ed55b796e5f72f3`
++
+Jakarta Contexts and Dependency Injection
+https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.13-dist.zip[cdi-tck-4.0.13-dist.zip],
+SHA-256: `566c547e1a9c66792eefcc6feafea87ab0c0f2e3f71385bf96865359a685df00`
++
+Jakarta Dependency Injection
+https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[jakarta.inject-tck-2.0.2-bin.zip],
+SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972`
++
+Jakarta JSON Binding
+https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[jakarta-jsonb-tck-3.0.0.zip],
+SHA-256: `954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`
++
+Jakarta JSON Processing
+https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[jakarta-jsonp-tck-2.1.1.zip],
+SHA-256: `949f203de84deffa8c7892b555918e42f1dd220ccb7b6800741ea58af62737c1`
++
+Jakarta RESTful Web Services
+https://download.eclipse.org/jakartaee/restful-ws/3.1/jakarta-restful-ws-tck-3.1.5.zip[jakarta-restful-ws-tck-3.1.5.zip],
+SHA-256: `93bf5bd22a217fd1950026feaeec6a234c7a67137657d64a13bb56b105b0fb2e`
+
+
+* Java runtime used to run the implementation:
++
+----
+java version "21.0.5" 2024-10-15 LTS
+IBM Semeru Runtime Certified Edition 21.0.5.0 (build 21.0.5+11-LTS)
+Eclipse OpenJ9 VM 21.0.5.0 (build openj9-0.48.0, JRE 21 Linux amd64-64-Bit Compressed References 20241015_304 (JIT enabled, AOT enabled)
+OpenJ9   - 1d5831436e
+OMR      - d10a4d553
+JCL      - d826c2ef42e based on jdk-21.0.5+11)
+----
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux (5.15.0-140-generic; amd64)
+
+Test results:
+
+----
+
+Stage Name: Jakarta Core Profile TCK
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.364 s - in ee.jakarta.tck.core.json.ApplicationJsonpIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.831 s - in ee.jakarta.tck.core.jsonb.JsonbApplicationIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.932 s - in ee.jakarta.tck.core.rest.context.app.ApplicationContextIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.362 s - in ee.jakarta.tck.core.rest.jsonb.cdi.CustomJsonbSerializationIT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- failsafe:3.0.0:verify (verify) @ core-profile-tck-runner ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:06 min
+
+
+Stage Name: Jakarta Annotations TCK
+[javatest.batch] ********************************************************************************
+[javatest.batch] Completed running 1 tests.
+[javatest.batch] Number of Tests Passed      = 1
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] ********************************************************************************
+[javatest.batch] PASSED........com/sun/ts/tests/signaturetest/caj/CAJSigTest.java#signatureTest
+[javatest.batch] 
+[javatest.batch] Total time = 11s
+
+
+Stage Name: Jakarta Contexts and Dependency Injection TCK
+[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,063.278 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 708, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/surefire-reports/sigtest/TEST-liberty-cdi-tck-runner-4.0.13.xml: 0 failures in /home/jazz_build/Build/jbe/build/dev/ee.jakarta.ee4j8.cts.liberty_fat.cdi/autoFVT/publish/cts_runner/docker/was-cts/jakarta/conf/cdi-tck/target/api-signature/cdi-api-jdk11.sig
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.186 s - in org.jboss.weld.langmodel.tck.LangModelTckTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta Dependency Injection TCK
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.162 s - in weld.SampleBootstrapTCK
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta JSON Binding TCK
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.189 s - in ee.jakarta.tck.json.bind.signaturetest.jsonb.JSONBSigTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.439 s - in ee.jakarta.tck.json.bind.customizedmapping.numberformat.NumberFormatCustomizationTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in ee.jakarta.tck.json.bind.customizedmapping.nullhandling.NullHandlingCustomizationTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 s - in ee.jakarta.tck.json.bind.customizedmapping.dateformat.DateFormatCustomizationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in ee.jakarta.tck.json.bind.customizedmapping.visibility.VisibilityCustomizationTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.221 s - in ee.jakarta.tck.json.bind.customizedmapping.propertynames.PropertyNameCustomizationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s - in ee.jakarta.tck.json.bind.customizedmapping.instantiation.OptionalCreatorParametersTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 s - in ee.jakarta.tck.json.bind.customizedmapping.instantiation.InstantiationCustomizationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in ee.jakarta.tck.json.bind.customizedmapping.adapters.AdaptersCustomizationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in ee.jakarta.tck.json.bind.customizedmapping.serializers.SerializersCustomizationTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in ee.jakarta.tck.json.bind.customizedmapping.propertyorder.PropertyOrderCustomizationTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ee.jakarta.tck.json.bind.customizedmapping.binarydata.BinaryDataCustomizationTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s - in ee.jakarta.tck.json.bind.customizedmapping.ijson.IJsonSupportTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.798 s - in ee.jakarta.tck.json.bind.cdi.customizedmapping.adapters.AdaptersCustomizationCDITest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 s - in ee.jakarta.tck.json.bind.cdi.customizedmapping.serializers.SerializersCustomizationCDITest
+[WARNING] Tests run: 22, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.193 s - in ee.jakarta.tck.json.bind.defaultmapping.collections.CollectionsMappingTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in ee.jakarta.tck.json.bind.defaultmapping.jsonptypes.JSONPTypesMappingTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 s - in ee.jakarta.tck.json.bind.defaultmapping.generics.GenericsMappingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ee.jakarta.tck.json.bind.defaultmapping.enums.EnumMappingTest
+[WARNING] Tests run: 25, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.222 s - in ee.jakarta.tck.json.bind.defaultmapping.dates.DatesMappingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ee.jakarta.tck.json.bind.defaultmapping.nullvalue.NullValueMappingTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 s - in ee.jakarta.tck.json.bind.defaultmapping.specifictypes.SpecificTypesMappingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ee.jakarta.tck.json.bind.defaultmapping.identifiers.NamesAndIdentifiersMappingTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in ee.jakarta.tck.json.bind.defaultmapping.classes.ClassesMappingTest
+[WARNING] Tests run: 10, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.108 s - in ee.jakarta.tck.json.bind.defaultmapping.basictypes.BasicJavaTypesMappingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.json.bind.defaultmapping.untyped.UntypedMappingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ee.jakarta.tck.json.bind.defaultmapping.arrays.ArraysMappingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ee.jakarta.tck.json.bind.defaultmapping.interfaces.InterfaceMappingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.json.bind.defaultmapping.uniqueness.PropertyUniquenessTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.002 s - in ee.jakarta.tck.json.bind.defaultmapping.bignumbers.BigNumbersMappingTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ee.jakarta.tck.json.bind.defaultmapping.polymorphictypes.MultipleTypeInfoTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s - in ee.jakarta.tck.json.bind.defaultmapping.polymorphictypes.AnnotationTypeInfoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.json.bind.defaultmapping.polymorphictypes.DefaultPolymorphicMappingTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ee.jakarta.tck.json.bind.defaultmapping.polymorphictypes.TypeInfoExceptionsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ee.jakarta.tck.json.bind.defaultmapping.attributeorder.AttributeOrderMappingTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ee.jakarta.tck.json.bind.defaultmapping.ignore.MustIgnoreMappingTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s - in ee.jakarta.tck.json.bind.api.jsonb.JsonbTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in ee.jakarta.tck.json.bind.api.annotation.AnnotationTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ee.jakarta.tck.json.bind.api.exception.JsonbExceptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ee.jakarta.tck.json.bind.api.jsonbadapter.JsonbAdapterTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ee.jakarta.tck.json.bind.api.builder.JsonbBuilderTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ee.jakarta.tck.json.bind.api.config.JsonbConfigTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 295, Failures: 0, Errors: 0, Skipped: 5
+
+
+Stage Name: Jakarta JSON Processing TCK
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.063 s - in ee.jakarta.tck.jsonp.signaturetest.jsonp.JSONPSigTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 s - in ee.jakarta.tck.jsonp.api.jsonstringtests.ClientTests
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.74 s - in ee.jakarta.tck.jsonp.api.jsonobjecttests.ClientTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.429 s - in ee.jakarta.tck.jsonp.api.jsonwriterfactorytests.ClientTests
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.467 s - in ee.jakarta.tck.jsonp.api.mergetests.MergeTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.355 s - in ee.jakarta.tck.jsonp.api.jsonnumbertests.ClientTests
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.252 s - in ee.jakarta.tck.jsonp.api.jsonparsereventtests.ClientTests
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.918 s - in ee.jakarta.tck.jsonp.api.patchtests.PatchTests
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.925 s - in ee.jakarta.tck.jsonp.api.jsonarraytests.ClientTests
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.997 s - in ee.jakarta.tck.jsonp.api.jsonparsertests.ClientTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.368 s - in ee.jakarta.tck.jsonp.api.jsonstreamingtests.ClientTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.732 s - in ee.jakarta.tck.jsonp.api.pointertests.PointerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 s - in ee.jakarta.tck.jsonp.api.collectortests.CollectorTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s - in ee.jakarta.tck.jsonp.api.jsoncoding.ClientTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 s - in ee.jakarta.tck.jsonp.api.provider.JsonProviderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.355 s - in ee.jakarta.tck.jsonp.api.jsonbuilderfactorytests.ClientTests
+[INFO] Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.981 s - in ee.jakarta.tck.jsonp.api.jsonreadertests.ClientTests
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.772 s - in ee.jakarta.tck.jsonp.api.jsonwritertests.ClientTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.436 s - in ee.jakarta.tck.jsonp.api.jsonreaderfactorytests.ClientTests
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.687 s - in ee.jakarta.tck.jsonp.api.jsonvaluetests.ClientTests
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.86 s - in ee.jakarta.tck.jsonp.api.jsongeneratortests.ClientTests
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.432 s - in ee.jakarta.tck.jsonp.api.jsongeneratorfactorytests.ClientTests
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.389 s - in ee.jakarta.tck.jsonp.api.jsonparserfactorytests.ClientTests
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 s - in ee.jakarta.tck.jsonp.api.exceptiontests.ClientTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.466 s - in ee.jakarta.tck.jsonp.pluggability.jsonprovidertests.ClientTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+
+Stage Name: Jakarta RESTful Web Services TCK
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.682 s - in ee.jakarta.tck.ws.rs.ee.resource.java2entity.JAXRSClientIT
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.302 s - in ee.jakarta.tck.ws.rs.ee.resource.webappexception.mapper.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.882 s - in ee.jakarta.tck.ws.rs.ee.resource.webappexception.nomapper.JAXRSClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.407 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.cookie.plain.JAXRSClientIT
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.942 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.form.plain.JAXRSClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.378 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.header.plain.JAXRSClientIT
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.334 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.matrix.plain.JAXRSClientIT
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.998 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.path.plain.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.843 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.plain.JAXRSClientIT
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.371 s - in ee.jakarta.tck.ws.rs.ee.rs.beanparam.query.plain.JAXRSClientIT
+[INFO] Tests run: 147, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 161.721 s - in ee.jakarta.tck.ws.rs.ee.rs.client.asyncinvoker.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.286 s - in ee.jakarta.tck.ws.rs.ee.rs.client.clientrequestcontext.JAXRSClientIT
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.89 s - in ee.jakarta.tck.ws.rs.ee.rs.client.invocationbuilder.JAXRSClientIT
+[INFO] Tests run: 98, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.906 s - in ee.jakarta.tck.ws.rs.ee.rs.client.syncinvoker.JAXRSClientIT
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.897 s - in ee.jakarta.tck.ws.rs.ee.rs.constrainedto.JAXRSClientIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.865 s - in ee.jakarta.tck.ws.rs.ee.rs.container.requestcontext.illegalstate.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.882 s - in ee.jakarta.tck.ws.rs.ee.rs.container.resourceinfo.JAXRSClientIT
+[WARNING] Tests run: 57, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 3.45 s - in ee.jakarta.tck.ws.rs.ee.rs.container.responsecontext.JAXRSClientIT
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.847 s - in ee.jakarta.tck.ws.rs.ee.rs.cookieparam.locator.JAXRSLocatorClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.738 s - in ee.jakarta.tck.ws.rs.ee.rs.cookieparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.919 s - in ee.jakarta.tck.ws.rs.ee.rs.cookieparam.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.424 s - in ee.jakarta.tck.ws.rs.ee.rs.core.application.JAXRSClientIT
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.82 s - in ee.jakarta.tck.ws.rs.ee.rs.core.configurable.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.397 s - in ee.jakarta.tck.ws.rs.ee.rs.core.configuration.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.933 s - in ee.jakarta.tck.ws.rs.ee.rs.core.headers.JAXRSClientIT
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.902 s - in ee.jakarta.tck.ws.rs.ee.rs.core.request.JAXRSClientIT
+[INFO] Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.42 s - in ee.jakarta.tck.ws.rs.ee.rs.core.response.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.861 s - in ee.jakarta.tck.ws.rs.ee.rs.core.responsebuilder.JAXRSClientIT
+[WARNING] Tests run: 20, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.916 s - in ee.jakarta.tck.ws.rs.ee.rs.core.uriinfo.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.359 s - in ee.jakarta.tck.ws.rs.ee.rs.delete.JAXRSClientIT
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.437 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.clientwriter.interceptorcontext.JAXRSClientIT
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.852 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.clientwriter.writerinterceptorcontext.JAXRSClientIT
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.994 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.containerreader.interceptorcontext.JAXRSClientIT
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.818 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.containerreader.readerinterceptorcontext.JAXRSClientIT
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.908 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.containerwriter.interceptorcontext.JAXRSClientIT
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.942 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.interceptor.containerwriter.writerinterceptorcontext.JAXRSClientIT
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.428 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.paramconverter.JAXRSClientIT
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.356 s - in ee.jakarta.tck.ws.rs.ee.rs.ext.providers.JAXRSProvidersClientIT
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.787 s - in ee.jakarta.tck.ws.rs.ee.rs.formparam.locator.JAXRSLocatorClientIT
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.322 s - in ee.jakarta.tck.ws.rs.ee.rs.formparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.911 s - in ee.jakarta.tck.ws.rs.ee.rs.formparam.JAXRSClientIT
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.42 s - in ee.jakarta.tck.ws.rs.ee.rs.get.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.379 s - in ee.jakarta.tck.ws.rs.ee.rs.head.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.348 s - in ee.jakarta.tck.ws.rs.ee.rs.headerparam.locator.JAXRSLocatorClientIT
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.311 s - in ee.jakarta.tck.ws.rs.ee.rs.headerparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.907 s - in ee.jakarta.tck.ws.rs.ee.rs.headerparam.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.234 s - in ee.jakarta.tck.ws.rs.ee.rs.matrixparam.locator.JAXRSLocatorClientIT
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.322 s - in ee.jakarta.tck.ws.rs.ee.rs.matrixparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.909 s - in ee.jakarta.tck.ws.rs.ee.rs.matrixparam.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.371 s - in ee.jakarta.tck.ws.rs.ee.rs.options.JAXRSClientIT
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.347 s - in ee.jakarta.tck.ws.rs.ee.rs.pathparam.locator.JAXRSLocatorClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.792 s - in ee.jakarta.tck.ws.rs.ee.rs.pathparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.894 s - in ee.jakarta.tck.ws.rs.ee.rs.pathparam.JAXRSClientIT
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.435 s - in ee.jakarta.tck.ws.rs.ee.rs.produceconsume.JAXRSClientIT
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.429 s - in ee.jakarta.tck.ws.rs.ee.rs.put.JAXRSClientIT
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.759 s - in ee.jakarta.tck.ws.rs.ee.rs.queryparam.sub.JAXRSSubClientIT
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.938 s - in ee.jakarta.tck.ws.rs.ee.rs.queryparam.JAXRSClientIT
+[WARNING] Tests run: 98, Failures: 0, Errors: 0, Skipped: 39, Time elapsed: 2.334 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.client.rxinvoker.JAXRSClientIT
+[WARNING] Tests run: 31, Failures: 0, Errors: 0, Skipped: 29, Time elapsed: 2.844 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.client.executor.rx.JAXRSClientIT
+[WARNING] Tests run: 57, Failures: 0, Errors: 0, Skipped: 57, Time elapsed: 2.726 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.client.executor.async.JAXRSClientIT
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.386 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.sse.ssebroadcaster.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.986 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.sse.sseeventsink.JAXRSClientIT
+[WARNING] Tests run: 15, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 32.46 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.sse.sseeventsource.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.838 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.priority.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.411 s - in ee.jakarta.tck.ws.rs.jaxrs21.ee.patch.server.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.873 s - in ee.jakarta.tck.ws.rs.jaxrs21.spec.classsubresourcelocator.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.451 s - in ee.jakarta.tck.ws.rs.jaxrs21.spec.completionstage.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.373 s - in ee.jakarta.tck.ws.rs.jaxrs21.api.client.invocationbuilder.JAXRSClientIT
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.388 s - in ee.jakarta.tck.ws.rs.servlet3.rs.core.streamingoutput.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.372 s - in ee.jakarta.tck.ws.rs.servlet3.rs.ext.paramconverter.autodiscovery.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.988 s - in ee.jakarta.tck.ws.rs.servlet3.rs.applicationpath.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.543 s - in ee.jakarta.tck.ws.rs.signaturetest.jaxrs.JAXRSSigTestIT
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.792 s - in ee.jakarta.tck.ws.rs.spec.client.invocations.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.41 s - in ee.jakarta.tck.ws.rs.spec.client.resource.JAXRSClientIT
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.899 s - in ee.jakarta.tck.ws.rs.spec.client.typedentities.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ee.jakarta.tck.ws.rs.spec.client.instance.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.354 s - in ee.jakarta.tck.ws.rs.spec.client.exceptions.ClientExceptionsIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.493 s - in ee.jakarta.tck.ws.rs.spec.client.webtarget.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.393 s - in ee.jakarta.tck.ws.rs.spec.context.client.JAXRSClientIT
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.923 s - in ee.jakarta.tck.ws.rs.spec.context.server.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.933 s - in ee.jakarta.tck.ws.rs.spec.filter.dynamicfeature.JAXRSClientIT
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.928 s - in ee.jakarta.tck.ws.rs.spec.filter.exception.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.362 s - in ee.jakarta.tck.ws.rs.spec.filter.globalbinding.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.431 s - in ee.jakarta.tck.ws.rs.spec.filter.lastvalue.JAXRSClientIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.917 s - in ee.jakarta.tck.ws.rs.spec.filter.namebinding.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.377 s - in ee.jakarta.tck.ws.rs.spec.inheritance.JAXRSClientIT
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.947 s - in ee.jakarta.tck.ws.rs.spec.provider.exceptionmapper.JAXRSClientIT
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.364 s - in ee.jakarta.tck.ws.rs.spec.provider.reader.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.338 s - in ee.jakarta.tck.ws.rs.spec.provider.sort.JAXRSClientIT
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.907 s - in ee.jakarta.tck.ws.rs.spec.provider.standard.JAXRSClientIT
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.401 s - in ee.jakarta.tck.ws.rs.spec.provider.standardwithjaxrsclient.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.397 s - in ee.jakarta.tck.ws.rs.spec.provider.visibility.JAXRSClientIT
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.933 s - in ee.jakarta.tck.ws.rs.spec.provider.writer.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.383 s - in ee.jakarta.tck.ws.rs.spec.resource.annotationprecedence.subclass.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.527 s - in ee.jakarta.tck.ws.rs.spec.resource.annotationprecedence.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.853 s - in ee.jakarta.tck.ws.rs.spec.resource.locator.JAXRSClientIT
+[INFO] Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.815 s - in ee.jakarta.tck.ws.rs.spec.resource.requestmatching.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.439 s - in ee.jakarta.tck.ws.rs.spec.resource.responsemediatype.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.37 s - in ee.jakarta.tck.ws.rs.spec.resource.valueofandfromstring.JAXRSClientIT
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.463 s - in ee.jakarta.tck.ws.rs.spec.resourceconstructor.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.402 s - in ee.jakarta.tck.ws.rs.spec.returntype.JAXRSClientIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.389 s - in ee.jakarta.tck.ws.rs.spec.template.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.843 s - in ee.jakarta.tck.ws.rs.spec.contextprovider.JsonbContextProviderIT
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 s - in ee.jakarta.tck.ws.rs.api.client.clientrequestcontext.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in ee.jakarta.tck.ws.rs.api.client.entity.JAXRSClientIT
+[INFO] Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in ee.jakarta.tck.ws.rs.api.client.client.JAXRSClientIT
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in ee.jakarta.tck.ws.rs.api.client.clientresponsecontext.JAXRSClientIT
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s - in ee.jakarta.tck.ws.rs.api.client.invocation.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.client.invocationcallback.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in ee.jakarta.tck.ws.rs.api.client.clientbuilder.JAXRSClientIT
+[INFO] Tests run: 47, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in ee.jakarta.tck.ws.rs.api.client.webtarget.JAXRSClientIT
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ee.jakarta.tck.ws.rs.api.client.responseprocessingexception.JAXRSClientIT
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.rs.core.genericentity.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.ws.rs.api.rs.core.responsestatustype.JAXRSClientIT
+[INFO] Tests run: 97, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.334 s - in ee.jakarta.tck.ws.rs.api.rs.core.responsebuilder.BuilderClientIT
+[INFO] Tests run: 85, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in ee.jakarta.tck.ws.rs.api.rs.core.responseclient.JAXRSClientIT
+[WARNING] Tests run: 126, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.104 s - in ee.jakarta.tck.ws.rs.api.rs.core.uribuilder.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in ee.jakarta.tck.ws.rs.api.rs.core.configuration.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ee.jakarta.tck.ws.rs.api.rs.core.configurable.JAXRSClientIT
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in ee.jakarta.tck.ws.rs.api.rs.core.linkbuilder.JAXRSClientIT
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ee.jakarta.tck.ws.rs.api.rs.core.linkjaxblink.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.rs.core.multivaluedhashmap.JAXRSClientIT
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ee.jakarta.tck.ws.rs.api.rs.core.form.JAXRSClientIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.ws.rs.api.rs.core.variantlistbuilder.JAXRSClientIT
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.ws.rs.api.rs.core.cookie.JAXRSClientIT
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ee.jakarta.tck.ws.rs.api.rs.core.newcookie.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in ee.jakarta.tck.ws.rs.api.rs.core.multivaluedmap.JAXRSClientIT
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ee.jakarta.tck.ws.rs.api.rs.core.mediatype.JAXRSClientIT
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ee.jakarta.tck.ws.rs.api.rs.core.link.JAXRSClientIT
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ee.jakarta.tck.ws.rs.api.rs.core.generictype.JAXRSClientIT
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ee.jakarta.tck.ws.rs.api.rs.core.entitytag.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.ws.rs.api.rs.core.cachecontrol.JAXRSClientIT
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in ee.jakarta.tck.ws.rs.api.rs.core.abstractmultivaluedmap.JAXRSClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.rs.core.variant.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in ee.jakarta.tck.ws.rs.api.rs.core.nocontentexception.JAXRSClientIT
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in ee.jakarta.tck.ws.rs.api.rs.ext.interceptor.reader.readerinterceptorcontext.JAXRSClientIT
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in ee.jakarta.tck.ws.rs.api.rs.ext.interceptor.reader.interceptorcontext.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ee.jakarta.tck.ws.rs.api.rs.ext.runtimedelegate.create.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ee.jakarta.tck.ws.rs.api.rs.ext.runtimedelegate.setinstance.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ee.jakarta.tck.ws.rs.api.rs.runtimetype.JAXRSClientIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in ee.jakarta.tck.ws.rs.api.rs.bindingpriority.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.rs.notfoundexception.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in ee.jakarta.tck.ws.rs.api.rs.internalservererrorexception.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ee.jakarta.tck.ws.rs.api.rs.serviceunavailableexception.JAXRSClientIT
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in ee.jakarta.tck.ws.rs.api.rs.clienterrorexception.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ee.jakarta.tck.ws.rs.api.rs.notacceptableexception.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in ee.jakarta.tck.ws.rs.api.rs.webapplicationexceptiontest.JAXRSClientIT
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in ee.jakarta.tck.ws.rs.api.rs.servererrorexception.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in ee.jakarta.tck.ws.rs.api.rs.badrequestexception.JAXRSClientIT
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in ee.jakarta.tck.ws.rs.api.rs.forbiddenexception.JAXRSClientIT
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 s - in ee.jakarta.tck.ws.rs.api.rs.processingexception.JAXRSClientIT
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in ee.jakarta.tck.ws.rs.api.rs.notallowedexception.JAXRSClientIT
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in ee.jakarta.tck.ws.rs.api.rs.notauthorizedexception.JAXRSClientIT
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in ee.jakarta.tck.ws.rs.api.rs.notsupportedexception.JAXRSClientIT
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in ee.jakarta.tck.ws.rs.api.rs.redirectexception.JAXRSClientIT
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in ee.jakarta.tck.ws.rs.uribuilder.UriBuilderIT
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.263 s - in ee.jakarta.tck.ws.rs.jaxrs31.spec.extensions.JAXRSClientIT
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 2647, Failures: 0, Errors: 0, Skipped: 132
+[INFO] 
+[INFO] 
+[INFO] --- failsafe:3.0.0:verify (verify) @ jakarta-restful-ws-tck-runner ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:23 min
+
+----
