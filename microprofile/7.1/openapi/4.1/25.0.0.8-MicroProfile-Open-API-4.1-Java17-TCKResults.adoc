@@ -15,7 +15,7 @@ https://github.com/eclipse/microprofile-open-api/tree/4.1[MicroProfile Open API 
 
 * (Optional) TCK Version, digital fingerprint and download URL:
 +
-https://repo1.maven.org/maven2/org/eclipse/microprofile/open-api/microprofile-open-api-tck/4.1/microprofile-open-api-tck-4.1.jar[MicroProfile Open API 4.1 TCK]
+https://repo1.maven.org/maven2/org/eclipse/microprofile/openapi/microprofile-openapi-tck/4.1/microprofile-openapi-tck-4.1.jar[MicroProfile Open API 4.1 TCK]
 +
 SHA-1: `5e3b03db45e4da2ceaa6702ab61c8f4a3c3e8f8a`
 +
