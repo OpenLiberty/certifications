@@ -25,7 +25,7 @@ MicroProfile 7.1 consists of 7 MicroProfile Specifications and it depends on the
 
 === Product Name, Version and download URL (if applicable):
 
-https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/tck/2025-05-08_1902/openliberty-25.0.0.8.zip[Open Liberty 25.0.0.8]
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/25.0.0.8/openliberty-25.0.0.8.zip[Open Liberty 25.0.0.8]
 
 In order to certify against MicroProfile 7.1, an implementation must pass the TCK tests for the seven included MicroProfile component specifications, plus the Jakarta EE Core Profile 10.0 TCK.
 
