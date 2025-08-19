@@ -1,0 +1,227 @@
+:page-layout: certification 
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Telemetry 2.1
+
+== Open Liberty 25.0.0.8 - MicroProfile Telemetry 2.1 Certification Summary (Java 11)
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/25.0.0.8/openliberty-25.0.0.8.zip[Open Liberty 25.0.0.8]
+
+* Specification Name, Version and download URL:
++
+https://github.com/eclipse/microprofile-telemetry/tree/2.1[MicroProfile Telemetry 2.1 Specification]
+
+* (Optional) TCK Version, digital fingerprint and download URL:
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-logs-tck/2.1/microprofile-telemetry-logs-tck-2.1.jar[MicroProfile Telemetry 2.1 Logs TCK]
++
+SHA-1: `3f7a344ae240432d7a95ee58fa2a20041bd69a08`
++
+SHA-256: `f76d739f6c693e3b9dcac29f01ac827cdee439cd153373fdcab402c909d3fc4c`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-metrics-tck/2.1/microprofile-telemetry-metrics-tck-2.1.jar[MicroProfile Telemetry 2.1 Metrics TCK]
++
+SHA-1: 
+`d27353b2b1046653eee4711a5309b2c24f0d60f8`
++
+SHA-256: `36179d9f5a01f4fcdb0658aa843fa04d47a11b929ce74a0d35099c61be562a6e`
++
+https://repo1.maven.org/maven2/org/eclipse/microprofile/telemetry/microprofile-telemetry-tracing-tck/2.1/microprofile-telemetry-tracing-tck-2.1.jar[MicroProfile Telemetry 2.1 Tracing TCK]
++
+SHA-1: 
+`42e09a19de479f85e13fe25f99f44220d88e345e`
++
+SHA-256: `659aadc7869d62658453ae00f47864e0dd1842e825f6a6e6cfe9ee3e5935347d`
+
+* Public URL of TCK Results Summary:
++
+xref:25.0.0.8-MicroProfile-Telemetry-2.1-Java11-TCKResults.adoc[TCK results summary]
+
+
+* Java runtime used to run the implementation:
++
+Java 11: IBM Semeru Runtime Open Edition (11.0.27+6)
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Linux: Linux version 6.8.0-64-generic (buildd@lcy02-amd64-083) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #67-Ubuntu SMP PREEMPT_DYNAMIC Sun Jun 15 20:23:31 UTC 2025
+
+Report generated at: 2025-07-30T14:40:37Z
+Test results:
+
+[source, text]
+----
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncLongCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncLongCounterTest.testAsyncLongCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest 2025-07-30T07:38:42 PDT
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanCurrent Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNew Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDisabledTest.spanName Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.TracerTest.tracer Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.ExporterSpiTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ExporterSpiTest.testExporter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.W3BaggagePropagationTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3BaggagePropagationTest.span Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.W3PropagationTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.W3PropagationTest.span Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongUpDownCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongUpDownCounterTest.testLongUpDownCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.PropagatorSpiTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.PropagatorSpiTest.testSPIPropagator Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.SpanBeanTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.SpanBeanTest.spanBeanChange Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest 2025-07-30T07:38:42 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanNameWithoutQueryString Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDefaultTest.spanName Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.B3MultiPropagationTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3MultiPropagationTest.b3MultiPropagation Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest 2025-07-30T07:38:42 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanNameWithoutQueryString Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanTest.spanName Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleCounterTest.testDoubleCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleUpDownCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleUpDownCounterTest.testDoubleUpDownCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.TestApplication 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.TestApplication.rest Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest 2025-07-30T07:38:42 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClient Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClientError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsClientAsyncTest.testIntegrationWithJaxRsClientAsync Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleGaugeTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleGaugeTest.testDoubleGauge Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest 2025-07-30T07:38:42 PDT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncCompletionStageError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncCompletionStage Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncSuspend Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.JaxRsServerAsyncTest.testJaxRsServerAsyncSuspendError Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleHistogramTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.DoubleHistogramTest.testDoubleHistogram Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongHistogramTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongHistogramTest.testLongHistogram Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest 2025-07-30T07:38:42 PDT
+Tests:9 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanNew Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanClientError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanChildWithParameter Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanError Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanTest.spanCurrent Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest 2025-07-30T07:38:42 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClientAsync Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClient Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.async.MpRestClientAsyncTest.testIntegrationWithMpRestClientAsyncError Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.JaegerPropagationTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.JaegerPropagationTest.jaegerPropagation Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest 2025-07-30T07:38:42 PDT
+Tests:7 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanChild Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNew Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanNameQuery Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanCurrent Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestClientSpanDefaultTest.spanError Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncDoubleCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.AsyncDoubleCounterTest.testAsyncDoubleCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.ResourceSpiTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.ResourceSpiTest.testResource Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongCounterTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongCounterTest.testLongCounter Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.BaggageBeanTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.BaggageBeanTest.baggageBeanChange Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest 2025-07-30T07:38:42 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.span Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanName Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.RestSpanDisabledTest.spanNameWithoutQueryString Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.SamplerSpiTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.SamplerSpiTest.testSampler Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.spi.CustomizerSpiTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.spi.CustomizerSpiTest.testCustomizer Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.B3PropagationTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.B3PropagationTest.b3Propagation Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.rest.BaggageTest.baggage Passed!
+Test suite: org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest 2025-07-30T07:38:42 PDT
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest.testOpenTelemetryBean Passed!
+   org.eclipse.microprofile.telemetry.tracing.tck.cdi.OpenTelemetryBeanTest.testSpanAndTracer Passed!
+Test suite: org.eclipse.microprofile.telemetry.logs.tck.application.JulTest 2025-07-30T07:38:42 PDT
+Tests:2 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.logs.tck.application.JulTest.julInfoTest Passed!
+   org.eclipse.microprofile.telemetry.logs.tck.application.JulTest.julWarnTest Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.http.HttpHistogramTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.http.HttpHistogramTest.collectsHttpRouteFromEndAttributes Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongGaugeTest 2025-07-30T07:38:42 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.application.cdi.LongGaugeTest.testLongGauge Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest 2025-07-30T07:39:49 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassCountMetrics Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassUnloadedMetrics Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmClassesTest.testClassLoadedMetrics Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmThreadTest 2025-07-30T07:39:49 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmThreadTest.testThreadCountMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest 2025-07-30T07:39:49 PDT
+Tests:4 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testMemoryLimitMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testJvmMemoryUsedMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testJvmMemoryCommittedMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmMemoryTest.testMemoryUsedAfterLastGcMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest 2025-07-30T07:39:49 PDT
+Tests:3 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuTimeMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuCountMetric Passed!
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmCpuTest.testCpuRecentUtilizationMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmGarbageCollectionTest 2025-07-30T07:39:49 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.metrics.tck.jvm.JvmGarbageCollectionTest.testGarbageCollectionCountMetric Passed!
+Test suite: org.eclipse.microprofile.telemetry.logs.tck.config.ServerInstanceTest 2025-07-30T07:40:30 PDT
+Tests:1 Failures:0 Errors:0
+   org.eclipse.microprofile.telemetry.logs.tck.config.ServerInstanceTest.runtimeInstance Passed!
+----
