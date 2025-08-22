@@ -1,5 +1,5 @@
 :page-layout: certification 
-:page-spec: MICROPROFILE
+:page-spec: MICROPROFILE CONTEXT PROPAGATION
 :page-version: 1.2
 = TCK Results
 

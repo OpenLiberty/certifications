@@ -1,5 +1,5 @@
 :page-layout: certification 
-:page-spec: MICROPROFILE
+:page-spec: MICROPROFILE METRICS
 :page-version: 3.0
 = TCK Results
 
