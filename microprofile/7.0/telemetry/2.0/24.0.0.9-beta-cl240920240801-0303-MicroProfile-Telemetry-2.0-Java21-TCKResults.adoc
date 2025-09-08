@@ -1,4 +1,6 @@
 :page-layout: certification 
+:page-spec: MICROPROFILE
+:page-version: 7.0
 = TCK Results
 
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of MicroProfile Telemetry 2.0
