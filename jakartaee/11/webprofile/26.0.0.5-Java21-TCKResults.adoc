@@ -18,7 +18,7 @@ https://jakarta.ee/specifications/webprofile/11[Jakarta EE Web Profile 11]
 * TCK Version, digital SHA-256 fingerprint and download URL:
 +
 https://download.eclipse.org/jakartaee/platform/11/jakarta-jakartaeetck-11.0.2.zip[Jakarta EE Platform TCK 11.0.2],
-SHA-256: a70a3085f3520891f9f4e88bcad1475328b4d375181ac56d1e2bcdc237ee62a3
+SHA-256: `a70a3085f3520891f9f4e88bcad1475328b4d375181ac56d1e2bcdc237ee62a3`
 
 * Public URL of TCK Results Summary:
 link:26.0.0.5-Java21-TCKResults.html[TCK results summary]
@@ -90,8 +90,8 @@ SHA-256: ff50825305bd1318a4e6bdfab21b829cfd8cf89fab8a970f007b52636d3f2629
 
 * Java runtime used to run the implementation:
 ----
-java version "21"
-IBM Semeru Runtime Certified Edition (21+11)
+java version "21.0.5"
+IBM Semeru Runtime Certified Edition (21.0.5+11)
 ----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:

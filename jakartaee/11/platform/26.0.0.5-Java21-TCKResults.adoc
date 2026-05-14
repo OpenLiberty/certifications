@@ -90,8 +90,8 @@ SHA-256: ff50825305bd1318a4e6bdfab21b829cfd8cf89fab8a970f007b52636d3f2629
 
 * Java runtime used to run the implementation:
 ----
-java version "21"
-IBM Semeru Runtime Certified Edition (21+11)
+java version "21.0.5"
+IBM Semeru Runtime Certified Edition (21.0.5+11)
 ----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
