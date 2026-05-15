@@ -201,6 +201,50 @@ Tests run: 361, Failures: 0, Errors: 0, Skipped: 0
 faces-tck
 Tests run: 314, Failures: 0, Errors: 0, Skipped: 17
 
+faces-tck-old/api/jakarta/faces/application
+Tests run: 243, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/component
+Tests run: 4359, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/context
+Tests run: 120, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/convert
+Tests run: 124, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/event
+Tests run: 136, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/facesexception
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinder
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinderrelease
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/flow
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/lifecycle
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/model
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/render
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/validator
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/view
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/spec
+Tests run: 161, Failures: 0, Errors: 0, Skipped: 0
 
 Jakarta Annotations
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
@@ -208,10 +252,6 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 Jakarta Contexts and Dependency Injection
 Tests run: 1335, Failures: 0, Errors: 0, Skipped: 0
-
-
-Jakarta Core Profile
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
 
 
 Jakarta Dependency Injection
@@ -227,7 +267,7 @@ Tests run: 197, Failures: 0, Errors: 0, Skipped: 0
 
 
 Jakarta RESTful Web Services
-Tests run: 2655, Failures: 0, Errors: 0, Skipped: 128
+Tests run: 2702, Failures: 0, Errors: 0, Skipped: 128
 
 
 jdbc/ee/batchUpdate
@@ -473,6 +513,32 @@ Tests run: 129, Failures: 0, Errors: 0, Skipped: 0
 security-tck
 Tests run: 124, Failures: 0, Errors: 0, Skipped: 0
 
+security-tck-old/ham
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/basic
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/customhandler
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/database
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/ldap
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multi
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multiauthz
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforgroup
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforvalidation
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 servlet-tck
 Tests run: 1716, Failures: 0, Errors: 0, Skipped: 1
