@@ -25,13 +25,12 @@ link:26.0.0.5-Java17-TCKResults.html[TCK results summary]
 
 * Any Additional Specification Certification Requirements:
 
-Jakarta Activation
-https://download.eclipse.org/jakartaee/activation/2.1/jakarta-activation-tck-2.1.2.zip[jakarta-activation-tck-2.1.2.zip],
-SHA-256: `fdfbb2f8979e8b27114364fca0848a4a104be33ab0b0f70bdf435e714a2ba742`
-
 Jakarta Annotations
 https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3.0.0.zip[jakarta-annotations-tck-3.0.0.zip],
 SHA-256: `9421c6ca66274d32dfb408848f75a42d57f120599fe0d8403c5c5c1141d5ac4d`
+Jakarta Activation
+https://download.eclipse.org/jakartaee/activation/2.1/jakarta-activation-tck-2.1.2.zip[jakarta-activation-tck-2.1.2.zip],
+SHA-256: `fdfbb2f8979e8b27114364fca0848a4a104be33ab0b0f70bdf435e714a2ba742`
 
 Jakarta Authentication
 https://download.eclipse.org/jakartaee/authentication/3.1/jakarta-authentication-tck-3.1.1.zip[jakarta-authentication-tck-3.1.1.zip],
@@ -146,7 +145,6 @@ Tests run: 386, Failures: 0, Errors: 0, Skipped: 14
 
 cdi-langmodel
 Test run: 1, Failues: 0, Errors: 0, Skipped: 0
-
 
 cdi-ee
 Tests run: 1904, Failures: 0, Errors: 0, Skipped: 0
@@ -331,10 +329,53 @@ Tests run: 717, Failures: 0, Errors: 0, Skipped: 0
 el-tck
 Tests run: 361, Failures: 0, Errors: 0, Skipped: 0
 
-
 faces-tck
 Tests run: 314, Failures: 0, Errors: 0, Skipped: 17
 
+faces-tck-old/api/jakarta/faces/application
+Tests run: 243, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/component
+Tests run: 4359, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/context
+Tests run: 120, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/convert
+Tests run: 124, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/event
+Tests run: 136, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/facesexception
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinder
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinderrelease
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/flow
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/lifecycle
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/model
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/render
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/validator
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/view
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/spec
+Tests run: 161, Failures: 0, Errors: 0, Skipped: 0
 
 integration-tck
 Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
@@ -631,9 +672,41 @@ restful-ws-platform-tck
 Tests run: 129, Failures: 0, Errors: 0, Skipped: 0
 
 
+samples
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
 security-tck
 Tests run: 133, Failures: 0, Errors: 0, Skipped: 0
 
+security-tck-old/ham
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/basic
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/customhandler
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/database
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/ldap
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multi
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multiauthz
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforgroup
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforvalidation
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/securitycontext
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
 
 servlet-tck
 Tests run: 1716, Failures: 0, Errors: 0, Skipped: 1
