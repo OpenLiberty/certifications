@@ -67,7 +67,7 @@ https://download.eclipse.org/jakartaee/expression-language/6.0/jakarta-expressio
 SHA-256: `8ca4339e1b93c8f490c38b5888d8a54d09f7d12257b222bff2d44d665f323cee`
 +
 Jakarta Faces
-http://download.eclipse.org/jakartaee/faces/4.1/jakarta-faces-tck-4.1.2.zip[jakarta-faces-tck-4.1.2.zip],
+https://download.eclipse.org/jakartaee/faces/4.1/jakarta-faces-tck-4.1.2.zip[jakarta-faces-tck-4.1.2.zip],
 SHA-256: `0827e2c9c635940643aaefb2a2f063959b0cab2fa1d633a7008b9fa04c5109de`
 +
 Jakarta Dependency Injection
