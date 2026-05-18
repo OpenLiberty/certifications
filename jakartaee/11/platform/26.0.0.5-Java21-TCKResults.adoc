@@ -94,7 +94,7 @@ https://download.eclipse.org/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0
 SHA-256: `b6290c1b5b3d2fdd9cc700a999243492a7e27b94a9b6af1974ff4dc5bfbf98f2`
 +
 Jakarta Security
-https://download.eclipse.org/jakartaee/security/4.0/jakarta-security-tck-4](https://jakarta.ee/specifications/debugging/).0.0.zip[jakarta-security-tck-4.0.0.zip],
+https://download.eclipse.org/jakartaee/security/4.0/jakarta-security-tck-4.0.0.zip[jakarta-security-tck-4.0.0.zip],
 SHA-256: `e21a3d8251bf954c99a3f9a5f71911696509a1ed40c23673760785a3b88e4172`
 +
 Jakarta Servlet
