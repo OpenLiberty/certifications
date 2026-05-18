@@ -114,7 +114,7 @@ Tests run: 112, Failures: 0, Errors: 0, Skipped: 0
 
 
 cdi-langmodel
-Test run: 1, Failues: 0, Errors: 0, Skipped: 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 
 concurrency-tck

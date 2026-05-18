@@ -65,7 +65,7 @@ Apache Derby 10.16.1.1, Linux, Ubuntu 18
 
 
 cdi-langmodel
-Test run: 1, Failues: 0, Errors: 0, Skipped: 0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 Jakarta Annotations
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
