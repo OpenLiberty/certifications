@@ -19,7 +19,11 @@ https://jakarta.ee/specifications/platform/11[Jakarta EE Platform 11]
 +
 https://download.eclipse.org/jakartaee/platform/11/jakarta-jakartaeetck-11.0.2.zip[Jakarta EE Platform TCK 11.0.2],
 SHA-256: `a70a3085f3520891f9f4e88bcad1475328b4d375181ac56d1e2bcdc237ee62a3`
-* Any Additional Specification Certification Requirements:
++
+* Public URL of TCK Results Summary:
+link:26.0.0.5-Java17-TCKResults.html[TCK results summary]
+
+** Any Additional Specification Certification Requirements:
 +
 Jakarta Annotations
 https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3.0.0.zip[jakarta-annotations-tck-3.0.0.zip],
@@ -118,7 +122,8 @@ Apache Derby 10.16.1.1, Linux, Ubuntu 18
 
 ----
 
-
+activation
+Tests run: 92, Failures: 0, Errors: 0, Skipped: 2
 
 appclient-tck
 Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
@@ -158,6 +163,12 @@ Tests run: 459, Failures: 0, Errors: 0, Skipped: 0
 data-tck
 Tests run: 99, Failures: 0, Errors: 0, Skipped: 0
 
+debugging-tck
++ /home/jazz_build/Build/jbe/jvms/jdk-21.0.5+11/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class.smap
+_Hello.class.smap is a correctly formatted SMAP
+
+_Hello.class.smap is a correctly formatted SMAP
++ /home/jazz_build/Build/jbe/jvms/jdk-21.0.5+11/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class
 
 ejb30/assembly
 Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
@@ -326,6 +337,7 @@ Tests run: 717, Failures: 0, Errors: 0, Skipped: 0
 el-tck
 Tests run: 361, Failures: 0, Errors: 0, Skipped: 0
 
+
 faces-tck
 Tests run: 314, Failures: 0, Errors: 0, Skipped: 17
 
@@ -383,7 +395,7 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
 
 Jakarta Contexts and Dependency Injection
-Tests run: 1335, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 1334, Failures: 0, Errors: 0, Skipped: 0
 
 
 Jakarta Dependency Injection
@@ -459,7 +471,7 @@ Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
 
 
 mail-tck
-Tests run: 322, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 322, Failures: 0, Errors: 0, Skipped: 6
 
 mail-platform-tck
 Tests run: 112, Failures: 0, Errors: 0, Skipped: 0
