@@ -19,11 +19,12 @@ https://jakarta.ee/specifications/platform/11[Jakarta EE Platform 11]
 +
 https://download.eclipse.org/jakartaee/platform/11/jakarta-jakartaeetck-11.0.2.zip[Jakarta EE Platform TCK 11.0.2],
 SHA-256: `a70a3085f3520891f9f4e88bcad1475328b4d375181ac56d1e2bcdc237ee62a3`
-+
+
 * Public URL of TCK Results Summary:
++
 link:26.0.0.5-Java17-TCKResults.html[TCK results summary]
 
-** Any Additional Specification Certification Requirements:
+* Any Additional Specification Certification Requirements:
 +
 Jakarta Annotations
 https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3.0.0.zip[jakarta-annotations-tck-3.0.0.zip],
