@@ -31,7 +31,7 @@ https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3
 SHA-256: `9421c6ca66274d32dfb408848f75a42d57f120599fe0d8403c5c5c1141d5ac4d`
 +
 Jakarta Contexts and Dependency Injection
-https://download.eclipse.org/ee4j/cdi/4.1/cdi-tck-4.1.0-dist.zip[cdi-tck-4.1.0-dist.zip],
+https://download.eclipse.org/jakartaee/cdi/4.1/cdi-tck-4.1.0-dist.zip[cdi-tck-4.1.0-dist.zip],
 SHA-256: `446029ee1ce694d2a9ae8893d16be7afd7e1c0ed8705064b7095af174cf97ea0`
 +
 Jakarta Dependency Injection
@@ -47,7 +47,7 @@ https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[jak
 SHA-256: `949f203de84deffa8c7892b555918e42f1dd220ccb7b6800741ea58af62737c1`
 +
 Jakarta RESTful Web Services
-https://download.eclipse.org/ee4j/restful-ws/tck/eftl/jakarta-restful-ws-tck-4.0.1.zip[jakarta-restful-ws-tck-4.0.1.zip],
+https://download.eclipse.org/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0.1.zip[jakarta-restful-ws-tck-4.0.1.zip],
 SHA-256: `b6290c1b5b3d2fdd9cc700a999243492a7e27b94a9b6af1974ff4dc5bfbf98f2`
 +
 * Java runtime used to run the implementation:
