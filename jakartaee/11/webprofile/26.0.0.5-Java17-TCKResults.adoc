@@ -101,6 +101,7 @@ IBM Semeru Runtime Certified Edition (17.0.13+11)
 ----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
++
 Apache Derby 10.16.1.1, Linux, Ubuntu 18
 
 *Test results:*
@@ -125,11 +126,11 @@ data-tck
 Tests run: 99, Failures: 0, Errors: 0, Skipped: 0
 
 debugging-tck
-+ /home/jazz_build/Build/jbe/jvms/jdk-21.0.5+11/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class.smap
++ /jvm/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class.smap
 _Hello.class.smap is a correctly formatted SMAP
 
-_Hello.class.smap is a correctly formatted SMAP
-+ /home/jazz_build/Build/jbe/jvms/jdk-21.0.5+11/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class
++ /jvm/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class
+_Hello.class contains a correctly formatted SMAP
 
 ejb30/lite/appexception
 Tests run: 292, Failures: 0, Errors: 0, Skipped: 0
