@@ -57,6 +57,7 @@ IBM Semeru Runtime Certified Edition (17.0.13+11)
 ----
 
 * Summary of the information for the certification environment, operating system, cloud, ...:
++
 Apache Derby 10.16.1.1, Linux, Ubuntu 18
 
 *Test results:*
