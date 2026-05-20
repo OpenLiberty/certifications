@@ -1,0 +1,583 @@
+:page-layout: certification
+:page-spec: JAKARTAEE
+:page-version: 11
+= TCK Results
+
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], the following is a summary of the TCK results for Jakarta EE Web Profile 11.
+
+== Open Liberty 26.0.0.5 Jakarta EE Web Profile 11 using Java 17 Certification Summary
+
+* Product Name, Version and download URL (if applicable):
++
+https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/26.0.0.5/openliberty-webProfile11-26.0.0.5.zip[Open Liberty 26.0.0.5]
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/webprofile/11[Jakarta EE Web Profile 11]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://download.eclipse.org/jakartaee/platform/11/jakarta-jakartaeetck-11.0.2.zip[Jakarta EE Platform TCK 11.0.2],
+SHA-256: `a70a3085f3520891f9f4e88bcad1475328b4d375181ac56d1e2bcdc237ee62a3`
+
+* Public URL of TCK Results Summary:
++
+link:26.0.0.5-Java17-TCKResults.html[TCK results summary]
+
+* Any Additional Specification Certification Requirements:
++
+Jakarta Annotations
+https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3.0.0.zip[jakarta-annotations-tck-3.0.0.zip],
+SHA-256: `9421c6ca66274d32dfb408848f75a42d57f120599fe0d8403c5c5c1141d5ac4d`
++
+Jakarta Authentication
+https://download.eclipse.org/jakartaee/authentication/3.1/jakarta-authentication-tck-3.1.1.zip[jakarta-authentication-tck-3.1.1.zip],
+SHA-256: `54647e8d648899383345966e01c5cc8af051b17a2c6d36566698c872d51fd5a7`
++
+Jakarta Contexts and Dependency Injection
+https://download.eclipse.org/jakartaee/cdi/4.1/cdi-tck-4.1.0-dist.zip[cdi-tck-4.1.0-dist.zip],
+SHA-256: `446029ee1ce694d2a9ae8893d16be7afd7e1c0ed8705064b7095af174cf97ea0`
++
+Jakarta Concurrency
+https://download.eclipse.org/jakartaee/concurrency/3.1/concurrency-tck-3.1.1.zip[concurrency-tck-3.1.1.zip],
+SHA-256: `b064e189e23d755bb0eff14cc3908413776608894353254e599f0724988671fd`
++
+Jakarta Data
+https://download.eclipse.org/jakartaee/data/1.0/data-tck-1.0.1.zip[data-tck-1.0.1.zip],
+SHA-256: `92babb604b4e346f8d19929979c1d6aaf013fdf990b5e97bdd95502ad7db5b4c`
++
+Jakarta Debugging Support for Other Languages
+https://download.eclipse.org/jakartaee/debugging/2.0/jakarta-debugging-tck-2.0.0.zip[jakarta-debugging-tck-2.0.0.zip],
+SHA-256: `71999815418799837dc6f3d0dc40c3dcc4144cd90c7cdfd06aa69270483d78bc`
++
+Jakarta Expression Language
+https://download.eclipse.org/jakartaee/expression-language/6.0/jakarta-expression-language-tck-6.0.1.zip[jakarta-expression-language-tck-6.0.1.zip],
+SHA-256: `8ca4339e1b93c8f490c38b5888d8a54d09f7d12257b222bff2d44d665f323cee`
++
+Jakarta Faces
+https://download.eclipse.org/jakartaee/faces/4.1/jakarta-faces-tck-4.1.2.zip[jakarta-faces-tck-4.1.2.zip],
+SHA-256: `0827e2c9c635940643aaefb2a2f063959b0cab2fa1d633a7008b9fa04c5109de`
++
+Jakarta Dependency Injection
+https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[jakarta.inject-tck-2.0.2-bin.zip],
+SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972`
++
+Jakarta JSON Binding
+https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[jakarta-jsonb-tck-3.0.0.zip],
+SHA-256: `954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`
++
+Jakarta JSON Processing
+https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[jakarta-jsonp-tck-2.1.1.zip],
+SHA-256: `949f203de84deffa8c7892b555918e42f1dd220ccb7b6800741ea58af62737c1`
++
+Jakarta Pages
+https://download.eclipse.org/jakartaee/pages/4.0/jakarta-pages-tck-4.0.0.zip[jakarta-pages-tck-4.0.0.zip],
+SHA-256: `5446aa866601a7c4c425f74054590cfc7f4fc05592a572d399ecc8694e265489`
++
+Jakarta RESTful Web Services
+https://download.eclipse.org/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0.1.zip[jakarta-restful-ws-tck-4.0.1.zip],
+SHA-256: `b6290c1b5b3d2fdd9cc700a999243492a7e27b94a9b6af1974ff4dc5bfbf98f2`
++
+Jakarta Security
+https://download.eclipse.org/jakartaee/security/4.0/jakarta-security-tck-4.0.0.zip[jakarta-security-tck-4.0.0.zip],
+SHA-256: `e21a3d8251bf954c99a3f9a5f71911696509a1ed40c23673760785a3b88e4172`
++
+Jakarta Servlet
+https://download.eclipse.org/jakartaee/servlet/6.1/jakarta-servlet-tck-6.1.1.zip[jakarta-servlet-tck-6.1.1.zip],
+SHA-256: `ed876365cda298efa7f9005dff4e2e47a25db6db4734b17d74d404041a5da6da`
++
+Jakarta Validation
+https://download.eclipse.org/jakartaee/bean-validation/3.1/validation-tck-dist-3.1.1.zip[validation-tck-dist-3.1.1.zip],
+SHA-256: `bda9de47960845a7c73aa9a1616e4bbed3e346de3516f768819cf5af77bf969f`
++
+Jakarta WebSocket
+https://download.eclipse.org/jakartaee/websocket/2.2/jakarta-websocket-tck-2.2.0.zip[jakarta-websocket-tck-2.2.0.zip],
+SHA-256: `ff50825305bd1318a4e6bdfab21b829cfd8cf89fab8a970f007b52636d3f2629`
+
+* Java runtime used to run the implementation:
+----
+java version "17.0.13"
+IBM Semeru Runtime Certified Edition (17.0.13+11)
+----
+
+* Summary of the information for the certification environment, operating system, cloud, ...:
++
+Apache Derby 10.16.1.1, Linux, Ubuntu 18
+
+*Test results:*
+
+----
+
+
+
+authentication-tck
+Tests run: 112, Failures: 0, Errors: 0, Skipped: 0
+
+
+cdi-langmodel
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+
+concurrency-tck
+Tests run: 197, Failures: 0, Errors: 0, Skipped: 14
+
+
+data-tck
+Tests run: 99, Failures: 0, Errors: 0, Skipped: 0
+
+debugging-tck
++ /jvm/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class.smap
+_Hello.class.smap is a correctly formatted SMAP
+
++ /jvm/bin/java -cp debugging-tck-2.0.0.jar VerifySMAP _Hello.class
+_Hello.class contains a correctly formatted SMAP
+
+ejb30/lite/appexception
+Tests run: 292, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/async
+Tests run: 300, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/basic
+Tests run: 84, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/ejbcontext
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/enventry
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/interceptor
+Tests run: 140, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/lookup
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/naming
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/nointerface
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/packaging
+Tests run: 97, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/singleton
+Tests run: 184, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/stateful/concurrency
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/stateful/timeout
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/tx
+Tests run: 300, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/view
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb30/lite/xmloverride
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+
+ejb32
+Tests run: 456, Failures: 0, Errors: 0, Skipped: 0
+
+
+el-platform-tck
+Tests run: 717, Failures: 0, Errors: 0, Skipped: 0
+
+
+el-tck
+Tests run: 361, Failures: 0, Errors: 0, Skipped: 0
+
+
+faces-tck
+Tests run: 314, Failures: 0, Errors: 0, Skipped: 17
+
+faces-tck-old/api/jakarta/faces/application
+Tests run: 243, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/component
+Tests run: 4359, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/context
+Tests run: 120, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/convert
+Tests run: 124, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/event
+Tests run: 136, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/facesexception
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinder
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/factoryfinderrelease
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/flow
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/lifecycle
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/model
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/render
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/validator
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/api/jakarta/faces/view
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+faces-tck-old/spec
+Tests run: 161, Failures: 0, Errors: 0, Skipped: 0
+
+Jakarta Annotations
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+
+Jakarta Contexts and Dependency Injection
+Tests run: 1334, Failures: 0, Errors: 0, Skipped: 0
+
+
+Jakarta Dependency Injection
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+
+Jakarta JSON Binding
+Tests run: 295, Failures: 0, Errors: 0, Skipped: 5
+
+
+Jakarta JSON Processing
+Tests run: 197, Failures: 0, Errors: 0, Skipped: 0
+
+
+Jakarta RESTful Web Services
+Tests run: 2702, Failures: 0, Errors: 0, Skipped: 128
+
+
+jdbc/ee/batchUpdate
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/callStmt
+Tests run: 796, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/connection
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/dateTime
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/dbMeta
+Tests run: 470, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/escapeSyntax
+Tests run: 162, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/exception
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/prepStmt
+Tests run: 542, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/resultSet
+Tests run: 228, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/rsMeta
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0
+
+
+jdbc/ee/stmt
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+
+jsonb-platform-tck
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+
+jsonp-platform-tck
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0
+
+
+pages-platform-tck
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+
+pages-tck
+Tests run: 682, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/annotations
+Tests run: 332, Failures: 0, Errors: 0, Skipped: 2
+
+
+persistence-tck/core/basic
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/cache
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/callback
+Tests run: 132, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/CriteriaBuilder
+Tests run: 310, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/CriteriaDelete
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/CriteriaQuery
+Tests run: 76, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/CriteriaUpdate
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/From
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/Join
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/metamodelquery
+Tests run: 302, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/misc
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/parameter
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/Root
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/criteriaapi/strquery
+Tests run: 256, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/derivedid
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/EntityGraph
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entityManager
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entityManager2
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entityManagerFactory
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entityManagerFactoryCloseExceptions
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entitytest
+Tests run: 304, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/entityTransaction
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/enums
+Tests run: 105, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/exceptions
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/inheritance
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/lock
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/metamodelapi
+Tests run: 520, Failures: 0, Errors: 0, Skipped: 2
+
+
+persistence-tck/core/nestedembedding
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/override
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/persistenceUnitUtil
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/persistenceUtil
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/query/apitests
+Tests run: 140, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/query/flushmode
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/query/language
+Tests run: 284, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/query/parameter
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/relationship
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/StoredProcedureQuery
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/types
+Tests run: 102, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/core/versioning
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/persistence/ee
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/persistence/entitytest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/persistence/jpa
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+
+persistence-tck/persistence/jpa22
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0
+
+
+restful-ws-platform-tck
+Tests run: 129, Failures: 0, Errors: 0, Skipped: 0
+
+
+security-tck
+Tests run: 124, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/ham
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/basic
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/customhandler
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/database
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/ldap
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multi
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/multiauthz
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforgroup
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/idstore/useforvalidation
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+security-tck-old/securitycontext
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+servlet-tck
+Tests run: 1716, Failures: 0, Errors: 0, Skipped: 1
+
+
+signature
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+
+tags-tck
+Tests run: 541, Failures: 0, Errors: 0, Skipped: 0
+
+
+transactions-tck
+Tests run: 181, Failures: 0, Errors: 0, Skipped: 0
+
+
+validation
+Tests run: 1049, Failures: 0, Errors: 0, Skipped: 0
+
+
+websocket-platform-tck
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+
+websocket-tck
+Tests run: 737, Failures: 0, Errors: 0, Skipped: 0
+
+----
